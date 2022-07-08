@@ -1,6 +1,10 @@
 # OsmAnd_Cycling_Map
 OsmAnd render  for cycling
 
+- 🇬🇧 **[English](README-EN.md)**<br>
+🇫🇷 [Français](README.md)
+
+
 ## Install the render
 Works on Android and iOS.
 
