@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<renderingStyle name="CyclOSM" depends="default" defaultColor="#f1eae4" version="1">
+<renderingStyle name="CycloRoute" depends="default" defaultColor="#f1eae4" version="1">
 
 <!--Remerciements à Xandrex et à Olivier_d qui ont testé encore et encore le rendu en construction ainsi qu'à leurs propositions d'améliorations et modifications du code. Louis-->
 
