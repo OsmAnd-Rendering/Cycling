@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <renderingStyle name="CyclOSM" depends="default" defaultColor="#f1eae4" version="1">
 
-<!--Remerciements à Xandrex et à Olivier_d qui ont testé encore et encore le rendu en construction ajouts ainsi qu'a leurs propositions d'améliorations et modifications du code. Louis-->
+<!--Remerciements à Xandrex et à Olivier_d qui ont testé encore et encore le rendu en construction ainsi qu'à leurs propositions d'améliorations et modifications du code. Louis-->
 
 
 	<renderingProperty attr="showCycleRoutes" name="Show cycle routes" description="Show cycle routes (*cn_networks)"
