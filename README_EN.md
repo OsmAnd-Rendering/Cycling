@@ -4,6 +4,19 @@ OsmAnd render  for cycling
 - 🇬🇧 **[English](README-EN.md)**<br>
 🇫🇷 [Français](README.md)
 
+<p float="left">
+  <img src="IMG_6303.PNG" width="200" />
+  <img src="IMG_6304.PNG" width="200" />
+</p>
+
+<p float="left">
+  <img src="IMG_6296.PNG" width="200" />
+  <img src="IMG_6297.PNG" width="200" />
+  <img src="IMG_6298.PNG" width="200" />
+  <img src="IMG_6299.PNG" width="200" />
+  <img src="IMG_6300.PNG" width="200" />
+  <img src="IMG_6301.PNG" width="200" />
+</p>
 
 ## Install the render
 Works on Android and iOS.
