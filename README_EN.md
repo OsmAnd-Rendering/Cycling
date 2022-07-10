@@ -30,7 +30,7 @@ Works on Android and iOS.
 - Open your downloaded file, then choose `Open with OsmAnd`. Your style went imported!
 - Open OsmAnd, then on the left sidemenu, press `Configure map`
 - Scroll down to `Map style`
-- Pick `Hiking`, your new rendering.
+- Pick `CycloRoute`, your new rendering.
 - Finished, enjoy! 🎉
 <br>
 <details>
