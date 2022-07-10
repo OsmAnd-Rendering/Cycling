@@ -31,7 +31,7 @@ Applicable sur Android et iOS.
 - Ouvrez votre téléchargement, puis choisissez `Ouvrir avec OsmAnd`. Votre style a été importé !
 - Ouvrez OsmAnd, puis dans le menu latéral gauche, sélectionnez sur `Paramétrer la carte`
 - Descendez à `Style de la carte`
-- Sélectionnez `Randonnée`, votre nouveau rendu.
+- Sélectionnez `CycloRoute`, votre nouveau rendu.
 - Terminé ! 🎉
 <br>
 <details>
