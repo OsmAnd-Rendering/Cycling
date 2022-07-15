@@ -496,6 +496,11 @@
 			<apply_if nightMode="true" attrColorValue="#B073FF"/>
 		</case>
 	</renderingAttribute>
+	<renderingAttribute name="cycleNodeTextColor">
+		<case attrColorValue="#0000ff">
+			<apply_if nightMode="true" attrColorValue="#578AEC"/>
+		</case>
+	</renderingAttribute>
 	
 	<renderingConstant name="sacScaleColorT1" value="#5a3a22"/>
 	<renderingConstant name="sacScaleColorT2" value="#FF00F5"/>
