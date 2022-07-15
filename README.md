@@ -3,7 +3,19 @@ OsmAnd render  for cycling
 
 - 🇫🇷 **[Français](README.md)**<br>
 🇬🇧 [English](README_EN.md)
+<br>
 
+## Changements notables par rapport aux styles standard :
+<br>
+
+- Pistes cyclables plus lisibles et visibles.
+- POI utiles / intéressants mis en évidence
+- Couleur des terres et utilisations de l'eau
+- Couleur opaque pour les itinéraires
+- Réglage supplémentaire pour le cyclotourisme
+- Paramètre supplémentaire pour masquer les logos d'utilisation des terres
+- Encore plus ; )
+<br><br><br><br>
 <p float="left">
   <img src="IMG_6303.PNG" width="200" />
   <img src="IMG_6304.PNG" width="200" />
@@ -17,7 +29,7 @@ OsmAnd render  for cycling
   <img src="IMG_6300.PNG" width="200" />
   <img src="IMG_6301.PNG" width="200" />
 </p>
-
+<br><br>
 
 ## Installer le rendu
 Applicable sur Android et iOS.
@@ -38,3 +50,37 @@ Applicable sur Android et iOS.
     <summary><i>Android ; Méthode alternative</i></summary>
         <p>Une fois le fichier téléchargé, le déplacer dans le dossier Android → Data → net.osmand.plus → files → rendering.</p>
 </details>
+<br><br><br>
+
+## Configurer la carte pour le vélo
+<br>
+
+### Pour tirer le meilleur parti de ce rendu pour le CYCLISME, veuillez procéder comme expliqué ci-dessous :
+
+   - Aller au réglage de la carte
+     - Appuyez sur "Masquer"
+       - Masquer les étiquettes POI
+       - Masquer les icônes POI
+
+*L'écran n'affichera que les POI utiles pour le cyclisme*
+<br><br><br>
+
+
+
+## Configurer la carte pour le cyclotourisme
+<br>
+
+### Pour tirer le meilleur parti de ce rendu pour le CYCLOTOURISME, veuillez procéder comme expliqué ci-dessous :
+
+   - Aller au réglage de la carte
+     - Appuyez sur "Masquer"
+       - Masquer les étiquettes POI
+       - Masquer les icônes POI
+
+**puis**
+
+   - Aller au réglage de la carte
+     - Appuyez sur "Détails"
+       - activer POI pour Cyclotourisme
+
+*L'écran n'affichera que les POI utiles pour le Cyclotourisme en plus de ceux pour le vélo.*
