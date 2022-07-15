@@ -4,6 +4,45 @@ OsmAnd render  for cycling
 - 🇬🇧 **[English](README-EN.md)**<br>
 🇫🇷 [Français](README.md)
 
+<br>
+
+## Notable features over standard styles:
+<br>
+
+- More readable and visible cycle paths.
+- Useful/interesting POIs highlighted
+- Color of land and water uses
+- Opaque color for routes
+- Additional setting for cyclotouring
+- Additional setting to hide land use logos
+- Even more ;)
+<br><br><br><br>
+
+**To get the most out of this rendering for CYCLING, please proceed as explained below:**
+
+  - Go to map setting
+    - Tap on "Hide"
+      - Hide POI labels
+      - Hide POI icons
+
+*The screen will only display the POIs useful for classic cycling*
+<br><br>
+**To get the most out of this rendering for CYCLOTOURING, please proceed as explained below:**
+
+  - Go to map setting
+    - Tap on "Hide"
+      - Hide POI labels
+      - Hide POI icons
+
+**Then**
+
+  - Go to map setting
+    - Tap on "Details"
+      - activate POI for Cyclotouring
+
+*The screen will only display the POIs useful for Cyclotouring in addition to those for cycling.*
+<br>
+<br><br><br><br>
 <p float="left">
   <img src="IMG_6303.PNG" width="200" />
   <img src="IMG_6304.PNG" width="200" />
