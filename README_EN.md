@@ -18,31 +18,6 @@ OsmAnd render  for cycling
 - Even more ;)
 <br><br><br><br>
 
-**To get the most out of this rendering for CYCLING, please proceed as explained below:**
-
-  - Go to map setting
-    - Tap on "Hide"
-      - Hide POI labels
-      - Hide POI icons
-
-*The screen will only display the POIs useful for classic cycling*
-<br><br>
-**To get the most out of this rendering for CYCLOTOURING, please proceed as explained below:**
-
-  - Go to map setting
-    - Tap on "Hide"
-      - Hide POI labels
-      - Hide POI icons
-
-**Then**
-
-  - Go to map setting
-    - Tap on "Details"
-      - activate POI for Cyclotouring
-
-*The screen will only display the POIs useful for Cyclotouring in addition to those for cycling.*
-<br>
-<br><br><br><br>
 <p float="left">
   <img src="IMG_6303.PNG" width="200" />
   <img src="IMG_6304.PNG" width="200" />
@@ -76,3 +51,36 @@ Works on Android and iOS.
     <summary><i>Android ; Alternative method</i></summary>
         <p>Once the file downloaded, move it in the folder located at Android → Data → net.osmand.plus → files → rendering.</p>
 </details>
+<br><br><br>
+
+## Configure the map for cycling
+
+
+### To get the most out of this rendering for CYCLING, please proceed as explained below:
+
+  - Go to map setting
+    - Tap on "Hide"
+      - Hide POI labels
+      - Hide POI icons
+
+*The screen will only display the POIs useful for cycling*
+<br><br>
+
+
+
+## Configure the map for cyclotouring
+
+### To get the most out of this rendering for CYCLOTOURING, please proceed as explained below:
+
+  - Go to map setting
+    - Tap on "Hide"
+      - Hide POI labels
+      - Hide POI icons
+
+**Then**
+
+  - Go to map setting
+    - Tap on "Details"
+      - activate POI for Cyclotouring
+
+*The screen will only display the POIs useful for Cyclotouring in addition to those for cycling.*
