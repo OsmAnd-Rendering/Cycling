@@ -1119,6 +1119,7 @@
 				</case>
 				<case minzoom="16" tag="natural" value="arch" icon="arch" shield="arch_shield"/>
 				<switch>
+				  <case minzoom="14" tag="landuse" value="cemetery" icon="grave"/>
 					<case minzoom="15" tag="natural" value="cave_entrance" icon="natural_cave_entrance" iconOrder="85"/>
 					<case minzoom="16" tag="man_made" value="adit" icon="man_made_adit" iconOrder="60"/>
 					<case minzoom="17" tag="man_made" value="cellar_entrance" icon="cellar_entrance" iconOrder="60"/>
@@ -1266,14 +1267,15 @@
 						<apply icon="tourism_picnic_site" shield="white_round_shield"/>
 					</switch>
 	  	    <switch POIcyclotouring="true" minzoom="16" iconOrder="60">
-            <case minzoom="11" tag="amenity" value="marketplace" icon="amenity_marketplace" iconOrder="51"/>
-            <case minzoom="11" tag="shop" value="supermarket" icon="shop_supermarket" iconOrder="50"/>
+            <case minzoom="11" tag="amenity" value="marketplace" icon="amenity_marketplace" iconOrder="32"/>
+            <case minzoom="11" tag="shop" value="supermarket" icon="shop_supermarket" iconOrder="32"/>
             <case tag="shop" value="outdoor" icon="outdoor"/>
             <case tag="shop" value="sports" icon="shop_sports"/>
             <case tag="shop" value="health_food" icon="health_food" iconOrder="50"/>
             <case tag="shop" value="cheese" icon="cheese"/>
             <case minzoom="12" tag="shop" value="butcher" icon="shop_butcher" iconOrder="50"/>
             <case minzoom="12" tag="shop" value="bakery" icon="shop_bakery" iconOrder="50"/>
+            <case minzoom="11" tag="shop" value="greengrocer" icon="shop_greengrocer" iconOrder="32"/>
             <case tag="shop" value="farm" icon="farm"/>
             <case tag="shop" value="fishing" icon="shop_fishing" iconOrder="50"/>
             <case tag="shop" value="seafood" icon="shop_seafood" iconOrder="50"/>
@@ -1285,7 +1287,7 @@
 			    </switch>
 	    	  <switch POIcyclotouring="true" minzoom="16" iconOrder="80">
             <case tag="amenity" value="restaurant" icon="amenity_restaurant"/>
-            <case minzoom="12" tag="amenity" value="cafe" icon="amenity_cafe"/>
+            <case minzoom="12" tag="amenity" value="cafe" icon="amenity_cafe" iconOrder="50"/>
             <case tag="amenity" value="fast_food" icon="amenity_fast_food"/>
             <case tag="amenity" value="food_court" icon="amenity_food_court"/>
             <case tag="amenity" value="pub" icon="amenity_pub"/>
