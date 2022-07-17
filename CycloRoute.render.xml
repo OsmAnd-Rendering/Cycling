@@ -197,6 +197,16 @@
 		<filter attrIntValue="100"/>
 	</renderingAttribute>
 	
+	<renderingAttribute name="trackSubstrateColor">
+		<case noPolygons="true">
+			<apply attrColorValue="#eeeeee">
+				<apply_if nightMode="true" attrColorValue="#33333333"/>
+			</apply>
+		</case>
+		<case nightMode="true" attrColorValue="$null"/>
+		<case attrColorValue="#30ebe7e4"/>
+	</renderingAttribute>
+
 	<renderingConstant name="trackColor" value="#50735c"/>
 	<renderingConstant name="pathColorDay" value="#5a3a22"/>
 	<renderingConstant name="pathColorNight" value="#787878"/>
@@ -957,6 +967,7 @@
         <case minzoom="18" textSize="18"/>
       </apply>
     </switch>
+    <case maxzoom="19" tag="landuse" value="cemetery" textColor="$black" textHaloRadius="$textHaloRadius"/>
   
     <switch>
 		<case minzoom="10" tag="route" value="segment" nameTag="" textMinDistance="60" textOnPath="true" textSize="15" textColor="#0078ff" textHaloColor="#ccebf4ff" textHaloRadius="1" textOrder="2"/>
@@ -1178,26 +1189,26 @@
 						<apply_if POIcyclotouring="true" minzoom="11" icon="topo_camp_site" shield="white_round_shield"/>
 					</switch>
 					<switch>
-						<case minzoom="16" tag="barrier" value="gate" icon="barrier_gate" shield="orange_round_shield"/>
-						<case minzoom="16" tag="barrier" value="yes" icon="barrier_gate" shield="orange_round_shield"/>
-						<case minzoom="16" tag="barrier" value="lift_gate" icon="barrier_lift_gate" shield="orange_round_shield"/>
-						<case minzoom="16" tag="barrier" value="hampshire_gate" icon="barrier_hampshire_gate" shield="orange_round_shield"/>
-						<case minzoom="16" tag="barrier" value="swing_gate" icon="barrier_swing_gate" shield="orange_round_shield"/>
-						<case minzoom="16" tag="barrier" value="bump_gate" icon="barrier_bump_gate" shield="orange_round_shield"/>
-						<case minzoom="16" tag="barrier" value="bus_trap" icon="barrier_bus_trap" shield="orange_round_shield"/>
-						<case minzoom="18" tag="barrier" value="cattle_grid" icon="barrier_cattle_grid" shield="orange_round_shield"/>
-						<case minzoom="16" tag="barrier" value="chain" icon="barrier_chain" shield="orange_round_shield"/>
-						<case minzoom="16" tag="barrier" value="height_restrictor" icon="barrier_height_restrictor" shield="orange_round_shield"/>
-						<case minzoom="16" tag="barrier" value="cycle_barrier" icon="barrier_cycle_barrier" shield="orange_round_shield"/>
-						<case minzoom="16" tag="barrier" value="motorcycle_barrier" icon="barrier_motorcycle_barrier" shield="orange_round_shield"/>
-						<case minzoom="16" tag="barrier" value="turnstile" icon="barrier_turnstile" shield="orange_round_shield" iconOrder="128"/>
-						<case minzoom="16" tag="barrier" value="full-height_turnstile" icon="barrier_turnstile" shield="orange_round_shield" iconOrder="128"/>
-						<case minzoom="16" tag="barrier" value="stile" icon="barrier_stile" shield="orange_round_shield"/>
-						<case minzoom="16" tag="barrier" value="sally_port" icon="barrier_sally_port" shield="orange_round_shield"/>
-						<case minzoom="16" tag="barrier" value="kissing_gate" icon="barrier_kissing_gate" shield="orange_round_shield"/>
-						<case minzoom="16" tag="barrier" value="sliding_gate" icon="barrier_gate" shield="orange_round_shield"/>
-						<case minzoom="16" tag="barrier" value="horse_stile" icon="barrier_colored_horse_stile" shield="orange_round_shield"/>
-						<case minzoom="16" tag="barrier" value="entrance" icon="barrier_entrance" shield="orange_round_shield"/>
+						<case minzoom="16" tag="barrier" value="gate" icon="barrier_gate" shield="barrier_gate_shield"/>
+						<case minzoom="16" tag="barrier" value="yes" icon="barrier_gate" shield="barrier_gate_shield"/>
+						<case minzoom="16" tag="barrier" value="lift_gate" icon="barrier_lift_gate" shield="barrier_lift_gate_shield"/>
+						<case minzoom="16" tag="barrier" value="hampshire_gate" icon="barrier_hampshire_gate" shield="barrier_hampshire_gate_shield"/>
+						<case minzoom="16" tag="barrier" value="swing_gate" icon="barrier_swing_gate" shield="barrier_swing_gate_shield"/>
+						<case minzoom="16" tag="barrier" value="bump_gate" icon="barrier_bump_gate" shield="barrier_bump_gate_shield"/>
+						<case minzoom="16" tag="barrier" value="bus_trap" icon="barrier_bus_trap" shield="barrier_bus_trap_shield"/>
+						<case minzoom="18" tag="barrier" value="cattle_grid" icon="barrier_cattle_grid" shield="barrier_cattle_grid_shield"/>
+						<case minzoom="16" tag="barrier" value="chain" icon="barrier_chain" shield="barrier_chain_shield"/>
+						<case minzoom="16" tag="barrier" value="height_restrictor" icon="barrier_height_restrictor" shield="barrier_height_restrictor_shield"/>
+						<case minzoom="16" tag="barrier" value="cycle_barrier" icon="barrier_cycle_barrier" shield="barrier_cycle_barrier_shield"/>
+						<case minzoom="16" tag="barrier" value="motorcycle_barrier" icon="barrier_motorcycle_barrier" shield="barrier_motorcycle_barrier_shield"/>
+						<case minzoom="16" tag="barrier" value="turnstile" icon="barrier_turnstile" shield="barrier_turnstile_shield" iconOrder="128"/>
+						<case minzoom="16" tag="barrier" value="full-height_turnstile" icon="barrier_turnstile" shield="barrier_turnstile_shield" iconOrder="128"/>
+						<case minzoom="16" tag="barrier" value="stile" icon="barrier_stile" shield="barrier_stile_shield"/>
+						<case minzoom="16" tag="barrier" value="sally_port" icon="barrier_sally_port" shield="barrier_sally_port_shield"/>
+						<case minzoom="16" tag="barrier" value="kissing_gate" icon="barrier_kissing_gate" shield="barrier_kissing_gate_shield"/>
+						<case minzoom="16" tag="barrier" value="sliding_gate" icon="barrier_gate" shield="barrier_gate_shield"/>
+						<case minzoom="16" tag="barrier" value="horse_stile" icon="barrier_colored_horse_stile" shield="barrier_horse_stile_shield"/>
+						<case minzoom="16" tag="barrier" value="entrance" icon="barrier_entrance" shield="barrier_entrance_shield"/>
 						<apply_if moreDetailed="true" minzoom="16" maxzoom="16" icon="barrier_small_black_2" shield="" iconVisibleSize="0">
 							<apply_if nightMode="true" icon="barrier_small_white_2"/>
 						</apply_if>
@@ -1205,22 +1216,22 @@
 							<apply_if nightMode="true" icon="barrier_small_white_2"/>
 						</apply_if>
 					</switch>
-					<switch shield="blue_round_shield">
-						<case minzoom="16" tag="amenity" value="bicycle_rental" icon="amenity_bicycle_rental" iconOrder="180"/>
-						<case minzoom="16" tag="amenity" value="bicycle_parking" icon="bicycle_parking" iconOrder="180">
-							<case additional="bicycle_parking=stands" icon="bicycle_parking_stands" iconOrder="180"/>
-							<case additional="bicycle_parking=wall_loops" icon="bicycle_parking_wall_loops"/>
-							<case additional="bicycle_parking=rack" icon="bicycle_parking_rack"/>
-							<case additional="bicycle_parking=anchors" icon="bicycle_parking_anchors"/>
-							<case additional="bicycle_parking=building" icon="bicycle_parking_building"/>
-							<case additional="bicycle_parking=shed" icon="bicycle_parking_building"/>
-							<case additional="bicycle_parking=bollard" icon="bicycle_parking_bollard"/>
-							<case additional="bicycle_parking=informal" icon="bicycle_parking_informal"/>
-							<case additional="bicycle_parking=lockers" icon="bicycle_parking_lockers"/>
-							<case additional="bicycle_parking=tree" icon="bicycle_parking_tree"/>
-							<case additional="bicycle_parking=streetpod" icon="bicycle_parking_streetpod"/>
+					<switch >
+						<case minzoom="16" tag="amenity" value="bicycle_rental" icon="amenity_bicycle_rental" iconOrder="90" shield="blue_round_small_shield"/>
+						<case minzoom="16" tag="amenity" value="bicycle_parking" icon="osmc_blue_dot" iconOrder="90">
+							<case additional="bicycle_parking=stands"/>
+							<case additional="bicycle_parking=wall_loops"/>
+							<case additional="bicycle_parking=rack"/>
+							<case additional="bicycle_parking=anchors"/>
+							<case additional="bicycle_parking=building"/>
+							<case additional="bicycle_parking=shed"/>
+							<case additional="bicycle_parking=bollard"/>
+							<case additional="bicycle_parking=informal"/>
+							<case additional="bicycle_parking=lockers"/>
+							<case additional="bicycle_parking=tree"/>
+							<case additional="bicycle_parking=streetpod"/>
 						</case>
-						<apply_if nightMode="true" shield="blue_round_night_shield"/>
+						<!--<apply_if nightMode="true" shield="blue_round_night_shield"/>-->
 					</switch>
           <switch POIcyclotouring="true" minzoom="12" iconOrder="70">
             <case tag="shop" value="medical_supply" icon="medical_supply" iconOrder="53"/>
