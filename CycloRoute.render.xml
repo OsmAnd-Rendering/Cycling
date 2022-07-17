@@ -1239,26 +1239,26 @@
             <case tag="emergency" value="defibrillator" icon="defibrillator"/>
             <apply shield="green_round_shield"/>
           </switch>
-					<switch POIcyclotouring="true">
-						<case minzoom="14" tag="man_made" value="water_well" icon="man_made_water_well" shield="blue_round_shield"/>
-				  	<case minzoom="12" tag="amenity" value="toilets" icon="amenity_toilets" shield="brown_round_shield"/>
-					  <case minzoom="14" tag="amenity" value="shower" icon="shower" shield="blue_round_shield"/>
-						<case minzoom="14" tag="natural" value="spring" icon="natural_spring" shield="blue_round_shield"/>
+					<switch>
+						<case POIcyclotouring="true" minzoom="14" tag="man_made" value="water_well" icon="man_made_water_well" shield="blue_round_shield"/>
+				  	<case minzoom="12" tag="amenity" value="toilets" icon="amenity_toilets" shield="orange_round_night_shield"/>
+					  <case POIcyclotouring="true" minzoom="14" tag="amenity" value="shower" icon="shower" shield="blue_round_shield"/>
+						<case POIcyclotouring="true" minzoom="14" tag="natural" value="spring" icon="natural_spring" shield="blue_round_shield"/>
 						<apply_if minzoom="12" additional="drinking_water=yes" icon_2="drinking_water_yes_map"/>
 						<apply_if nightMode="true" shield="blue_round_night_shield"/>
 					</switch>
-					<switch POIcyclotouring="true">
+					<switch>
 						<case tag="amenity" value="drinking_water"/>
-						<apply minzoom="16" icon="amenity_drinking_water" shield="blue_round_shield"/>
-						<apply_if POIcyclotouring="true" minzoom="11" icon="amenity_drinking_water" shield="blue_round_shield"/>
+						<apply minzoom="15" icon="amenity_drinking_water" shield="blue_round_night_shield" iconOrder="60"/>
+						<apply_if POIcyclotouring="true" minzoom="11" icon="amenity_drinking_water" shield="blue_round_night_shield" iconOrder="60"/>
 					</switch>
 					<switch>
 						<case minzoom="14" tag="shop" value="bicycle" icon="shop_bicycle" shield="purple_round_night_shield"/>
 						<apply_if POIcyclotouring="true" minzoom="11" icon="shop_bicycle" shield="purple_round_night_shield"/>
 					</switch>
 					<switch>
-						<case minzoom="14" tag="amenity" value="bicycle_repair_station" icon="bicycle_repair_station" shield="purple_round_night_shield"/>
-						<case minzoom="14" tag="amenity" value="compressed_air" icon="compressed_air" shield="purple_round_night_shield" iconOrder="70"/>
+						<case minzoom="13" tag="amenity" value="bicycle_repair_station" icon="bicycle_repair_station" shield="purple_round_night_shield"/>
+						<case minzoom="13" tag="amenity" value="compressed_air" icon="compressed_air" shield="purple_round_night_shield" iconOrder="70"/>
 					</switch>
 					<switch POIcyclotouring="true">
 						<case minzoom="15" tag="tourism" value="picnic_site"/>
@@ -1375,6 +1375,7 @@
         <apply_if additional="wood:damage=dead_wood" shader="topo_dead_wood"/>
       </apply_if>
     </switch>
+      <switch noPolygons="false">
       <case minzoom="10" tag="natural" value="scrub">
         <apply_if maxzoom="22" color="$scrubColor"/>
         <apply_if hidelanduseshader="false" minzoom="15" color_0="$scrubColor" shader="topo_scrub"/>
