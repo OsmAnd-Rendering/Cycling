@@ -1338,7 +1338,7 @@
 		<!--SHADER-->
 		
 
-    <switch minzoom="6">
+    <switch noPolygons="false" minzoom="6">
       <case tag="natural" value="wood"/>
       <case tag="landuse" value="forest"/>
       <apply color="$woodColor" color_0="$woodColor" shield="wood_shield"/>
