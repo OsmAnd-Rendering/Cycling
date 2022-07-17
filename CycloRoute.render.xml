@@ -196,7 +196,7 @@
 	<!-- Minimal impact on performance, too small values like 12 lead to missing tracks hence map errors. 100 means basically unlimited. -->
 		<filter attrIntValue="100"/>
 	</renderingAttribute>
-
+	
 	<renderingConstant name="trackColor" value="#50735c"/>
 	<renderingConstant name="pathColorDay" value="#5a3a22"/>
 	<renderingConstant name="pathColorNight" value="#787878"/>
@@ -1364,48 +1364,48 @@
         <apply_if additional="wood:damage=dead_wood" shader="topo_dead_wood"/>
       </apply_if>
     </switch>
-    <case minzoom="10" tag="natural" value="scrub">
-      <apply_if maxzoom="22" color="$scrubColor"/>
-      <apply_if hidelanduseshader="false" minzoom="15" color_0="$scrubColor" shader="topo_scrub"/>
-      <apply_if nightMode="true" color_0="#1B251B" color="#1B251B" shader="topo_scrub_night"/>
-    </case>
-    <case minzoom="6" tag="natural" value="grassland">
-      <apply_if maxzoom="22" color="$grassColor"/>
-      <apply_if hidelanduseshader="false" minzoom="15" color_0="$grassColor" shader="scrub"/>
-      <apply_if nightMode="true" color_0="#1B251B" color="#1B251B" shader="scrub_night"/>
-    </case>
-    <case minzoom="10" tag="landuse" value="meadow">
-      <apply_if maxzoom="22" color="$meadowColor"/>
-      <apply_if hidelanduseshader="false" minzoom="15" color_0="$meadowColor" shader="scrub"/>
-      <apply_if nightMode="true" color_0="#1B251B" color="#1B251B" shader="scrub_night"/>
-    </case>
-    <case minzoom="10" tag="natural" value="heath">
-      <apply_if maxzoom="22" color="$heathColor"/>
-      <apply_if hidelanduseshader="false" minzoom="15" color_0="$heathColor" shader="scrub"/>
-      <apply_if nightMode="true" color_0="#1B251B" color="#1B251B" shader="scrub_night"/>
-    </case>
-    <case minzoom="10" tag="landuse" value="grass">
-      <apply_if maxzoom="22" color="$grassColor"/>
-      <apply_if hidelanduseshader="false" minzoom="15" color_0="$grassColor" shader="scrub"/>
-      <apply_if nightMode="true" color_0="#1B251B" color="#1B251B" shader="scrub_night"/>
-    </case>
-    <case minzoom="10" tag="landuse" value="vineyard">
-      <apply_if maxzoom="22" color="$landuseVineyardColor"/>
-      <apply_if hidelanduseshader="false" minzoom="15" color_0="$landuseVineyardColor" shader="topo_scrub"/>
-      <apply_if nightMode="true" color_0="#1B251B" color="#1B251B" shader="scrub_night"/>
-    </case>
-    <case minzoom="10" tag="landuse" value="allotments" color_0="$landuseAllotmentsColor" color_2="$landuseAllotmentsColor" strokeWidth_2=":1">
-      <apply_if minzoom="15" hidelanduseshader="false" shader="topo_allotments"/>
-      <apply_if nightMode="true" color_0="#1B251B" color="#1B251B" shader="scrub_night"/>
-    </case>
-    <case minzoom="10" tag="landuse" value="orchard" color="$landuseOrchardColor" color_0="$landuseOrchardColor" color_2="#499720">
-      <apply_if minzoom="15" hidelanduseshader="false" shader="topo_orchard"/>
-     <apply_if nightMode="true" color_0="#1B251B" color="#1B251B" shader="scrub_night"/>
-    </case>
-    <switch minzoom="4" tag="natural" value="glacier">
-      <case maxzoom="8" strokeWidth_2="1"/>
-      <case minzoom="9" maxzoom="11" strokeWidth_2="1.5" pathEffect_2="2_3"/>
-      <case minzoom="11" strokeWidth_2="1.5" pathEffect_2="3_5"/>
+      <case minzoom="10" tag="natural" value="scrub">
+        <apply_if maxzoom="22" color="$scrubColor"/>
+        <apply_if hidelanduseshader="false" minzoom="15" color_0="$scrubColor" shader="topo_scrub"/>
+        <apply_if nightMode="true" color_0="#1B251B" color="#1B251B" shader="topo_scrub_night"/>
+      </case>
+      <case minzoom="6" tag="natural" value="grassland">
+        <apply_if maxzoom="22" color="$grassColor"/>
+        <apply_if hidelanduseshader="false" minzoom="15" color_0="$grassColor" shader="scrub"/>
+        <apply_if nightMode="true" color_0="#1B251B" color="#1B251B" shader="scrub_night"/>
+      </case>
+      <case minzoom="10" tag="landuse" value="meadow">
+        <apply_if maxzoom="22" color="$meadowColor"/>
+        <apply_if hidelanduseshader="false" minzoom="15" color_0="$meadowColor" shader="scrub"/>
+        <apply_if nightMode="true" color_0="#1B251B" color="#1B251B" shader="scrub_night"/>
+      </case>
+      <case minzoom="10" tag="natural" value="heath">
+        <apply_if maxzoom="22" color="$heathColor"/>
+        <apply_if hidelanduseshader="false" minzoom="15" color_0="$heathColor" shader="scrub"/>
+        <apply_if nightMode="true" color_0="#1B251B" color="#1B251B" shader="scrub_night"/>
+      </case>
+      <case minzoom="10" tag="landuse" value="grass">
+        <apply_if maxzoom="22" color="$grassColor"/>
+        <apply_if hidelanduseshader="false" minzoom="15" color_0="$grassColor" shader="scrub"/>
+        <apply_if nightMode="true" color_0="#1B251B" color="#1B251B" shader="scrub_night"/>
+      </case>
+      <case minzoom="10" tag="landuse" value="vineyard">
+        <apply_if maxzoom="22" color="$landuseVineyardColor"/>
+        <apply_if hidelanduseshader="false" minzoom="15" color_0="$landuseVineyardColor" shader="topo_scrub"/>
+        <apply_if nightMode="true" color_0="#1B251B" color="#1B251B" shader="scrub_night"/>
+      </case>
+      <case minzoom="10" tag="landuse" value="allotments" color_0="$landuseAllotmentsColor" color_2="$landuseAllotmentsColor" strokeWidth_2=":1">
+        <apply_if minzoom="15" hidelanduseshader="false" shader="topo_allotments"/>
+        <apply_if nightMode="true" color_0="#1B251B" color="#1B251B" shader="scrub_night"/>
+      </case>
+      <case minzoom="10" tag="landuse" value="orchard" color="$landuseOrchardColor" color_0="$landuseOrchardColor" color_2="#499720">
+        <apply_if minzoom="15" hidelanduseshader="false" shader="topo_orchard"/>
+       <apply_if nightMode="true" color_0="#1B251B" color="#1B251B" shader="scrub_night"/>
+      </case>
+      <switch minzoom="4" tag="natural" value="glacier">
+        <case maxzoom="8" strokeWidth_2="1"/>
+        <case minzoom="9" maxzoom="11" strokeWidth_2="1.5" pathEffect_2="2_3"/>
+        <case minzoom="11" strokeWidth_2="1.5" pathEffect_2="3_5"/>
       <!--						<apply_if minzoom="7" shader="topo_glacier"/>-->
     </switch>
 	</polygon>
@@ -1509,13 +1509,13 @@
 					</filter>
 					<groupFilter>
 						<filter>
-							<filter minzoom="11" maxzoom="11" strokeWidth_5="0.2"/>
-							<filter minzoom="12" maxzoom="12" strokeWidth_5="1"/>
-							<filter minzoom="13" maxzoom="13" strokeWidth_5="1.3"/>
-							<filter minzoom="14" maxzoom="14" strokeWidth_5="1.8"/>
-							<filter minzoom="15" maxzoom="15" strokeWidth_5="2.4"/>
-							<filter minzoom="16" maxzoom="17" strokeWidth_5="3"/>
-							<filter minzoom="18" strokeWidth_5="3.6"/>
+							<filter minzoom="11" maxzoom="11" strokeWidth_5="0.2" strokeWidth_4="0.3"/>
+							<filter minzoom="12" maxzoom="12" strokeWidth_5="1" strokeWidth_4="1.1"/>
+							<filter minzoom="13" maxzoom="13" strokeWidth_5="1.3" strokeWidth_4="1.5"/>
+							<filter minzoom="14" maxzoom="14" strokeWidth_5="1.8" strokeWidth_4="2.1"/>
+							<filter minzoom="15" maxzoom="15" strokeWidth_5="2.4" strokeWidth_4="3"/>
+							<filter minzoom="16" maxzoom="17" strokeWidth_5="3" strokeWidth_4="4"/>
+							<filter minzoom="18" strokeWidth_5="3.6" strokeWidth_4="5"/>
 						</filter>
 					</groupFilter>
 				</groupFilter>
@@ -1524,6 +1524,7 @@
 					<case additional="access=private" color_5="$accessPrivateColor"/>
 					<case additional="access=no" color_5="$accessPrivateColor"/>
 				</switch>
+			<apply_if noPolygons="true" color_4="$trackSubstrateColor"/>
 			</apply_if>
 			</group>
 
@@ -1538,21 +1539,11 @@
 					<filter additional="sac_scale=difficult_alpine_hiking" pathEffect_5="2_6"/>
 					<filter pathEffect_5="4_2"/>
 					<groupFilter>
-						<filter baseAppMode="pedestrian">
-							<filter minzoom="12" maxzoom="12" strokeWidth_5="1.4"/>
-							<filter minzoom="13" maxzoom="13" strokeWidth_5="1.8"/>
-							<filter minzoom="14" strokeWidth_5="2.5"/>
-						</filter>
 						<filter baseAppMode="bicycle">
-							<filter minzoom="13" maxzoom="13" strokeWidth_5="0.7"/>
-							<filter minzoom="14" maxzoom="15" strokeWidth_5="1"/>
-							<filter minzoom="16" strokeWidth_5="2"/>
+							<filter minzoom="13" maxzoom="13" strokeWidth_5="0.7" strokeWidth_4="1"/>
+							<filter minzoom="14" maxzoom="15" strokeWidth_5="1" strokeWidth_4="1.3"/>
+							<filter minzoom="16" strokeWidth_5="2" strokeWidth_4="3"/>
 						</filter>
-						<filter baseAppMode="car">
-							<filter minzoom="14" strokeWidth_5="1"/>
-						</filter>
-						<filter minzoom="12" maxzoom="12" strokeWidth_5="0.7"/>
-						<filter minzoom="13" strokeWidth_5="1"/>
 					</groupFilter>
 					<groupFilter nightMode="true" color_5="$pathColorNight"/>
 				</groupFilter>
@@ -1572,6 +1563,7 @@
 						<filter minzoom="16" strokeWidth_5="2"/>
 					</groupFilter>
 				</groupFilter>
+			<apply_if noPolygons="true" color_4="$trackSubstrateColor"/>
 			</group>
 
 			<!-- Blocks footway/steps/bridleway/cycleway should be unchanged from default renderer -->
@@ -1580,20 +1572,17 @@
 					<case additional="footway=crossing" strokeWidth="0.5"/>
 				</filter>
 				<groupFilter color_5="$footwayColorDay" pathEffect_5="4_2" color="$null">
-					<filter minzoom="15" maxzoom="16" strokeWidth_5="0.7"/>
-					<filter minzoom="17" strokeWidth_5="2"/>
+					<filter minzoom="15" maxzoom="16" strokeWidth_5="0.7" strokeWidth_4="0.9"/>
+					<filter minzoom="17" strokeWidth_5="2" strokeWidth_4="3"/>
+          <apply_if noPolygons="true" color_4="$trackSubstrateColor"/>
+          <apply_if nightMode="true" color_5="$pathColorNight"/>
 				</groupFilter>
-				<groupFilter baseAppMode="bicycle" minzoom="13" additional="bicycle=designated" color_5="#0060ff" pathEffect_5="">
-					<filter minzoom="13" maxzoom="13" strokeWidth_5="1.5"/>
-					<filter minzoom="14" maxzoom="15" strokeWidth_5="2"/>
-					<filter minzoom="16" strokeWidth_5="3"/>
-				</groupFilter>
-			</group>
-			<group>
-				<filter tag="highway" value="steps" strokeWidth="1"/>
-				<groupFilter color_5="$footwayColorDay" pathEffect_5="1_2" color="$null">
-					<filter baseAppMode="pedestrian" minzoom="14" strokeWidth_5="4" pathEffect_5="2_2"/>
-					<filter minzoom="14" strokeWidth_5="4"/>
+				<groupFilter baseAppMode="bicycle" minzoom="13" additional="bicycle=designated" color_5="#0060ff">
+					<filter minzoom="14" maxzoom="14" strokeWidth_5="1.5" pathEffect_5="" cap_5="ROUND"/>
+					<filter minzoom="15" maxzoom="15" strokeWidth_5="2.5" pathEffect_5="" cap_5="ROUND"/>
+					<filter minzoom="16" maxzoom="16" strokeWidth_5="3" pathEffect_5="" cap_5="ROUND"/>
+					<filter minzoom="17" maxzoom="17" strokeWidth_5="4" pathEffect_5="" cap_5="ROUND"/>
+					<filter minzoom="18" strokeWidth_5="5" pathEffect_5="" cap_5="ROUND"/>
 				</groupFilter>
 			</group>
 
@@ -1608,12 +1597,14 @@
 
 			<group>
 				<filter tag="highway" value="cycleway" strokeWidth="0.5"/>
-				<groupFilter color_5="$cyclewayColorDay" pathEffect_5="" color="$null">
+				<groupFilter color_5="$cyclewayColorDay" pathEffect_5="" color="$null" cap_5="ROUND">
 					<filter baseAppMode="bicycle" minzoom="10" maxzoom="12" strokeWidth_5="0.5"/>
 <!--					<filter minzoom="12" maxzoom="12" strokeWidth_5="1"/>-->
-					<filter minzoom="13" maxzoom="13" strokeWidth_5="1"/>
-					<filter minzoom="14" maxzoom="15" strokeWidth_5="2"/>
-					<filter minzoom="16" strokeWidth_5="3"/>
+					<filter minzoom="13" maxzoom="13" strokeWidth_5="1.5"/>
+					<filter minzoom="14" maxzoom="15" strokeWidth_5="2.5"/>
+					<filter minzoom="16" maxzoom="16" strokeWidth_5="3"/>
+					<filter minzoom="17" maxzoom="17" strokeWidth_5="4"/>
+					<filter minzoom="18" strokeWidth_5="5"/>
 					<filter baseAppMode="pedestrian" minzoom="10" strokeWidth_5="2"/>
 					<filter minzoom="9" maxzoom="12" strokeWidth_5="3"/>
 					<filter minzoom="13" strokeWidth_5="3"/>
@@ -1658,30 +1649,42 @@
 		<filter tag="highway" value="proposed" minzoom="12" maxzoom="13" color="$proposedRoadColor" strokeWidth="6" color_2="$proposedRoadColor2" strokeWidth_2="4" pathEffect_2="6_2"/>
 		<filter tag="highway" value="proposed" minzoom="14" color="$proposedRoadColor" strokeWidth="8" color_2="$proposedRoadColor2" strokeWidth_2="6" pathEffect_2="9_3"/>
 
-	<switch>
+	  <switch>
 			<switch minzoom="14">
 				<case tag="cycleway" value="lane"/>
-				<case tag="cycleway" value="track"/>
 				<case tag="cycleway" value="opposite_lane"/>
 				<case tag="cycleway" value="both"/>
 				<case tag="cycleway:both" value="lane"/>
-				<case tag="cycleway:both" value="track"/>
-			  <apply minzoom="14" maxzoom="14" strokeWidth="1.5" pathEffect="8_4"/>
-			  <apply minzoom="15" maxzoom="15" strokeWidth="2" pathEffect="8_4"/>
-			  <apply minzoom="16" strokeWidth="3" pathEffect="8_4"/>
+        <apply minzoom="14" maxzoom="14" strokeWidth="1.5" pathEffect="8_10" cap="ROUND"/>
+        <apply minzoom="15" maxzoom="15" strokeWidth="2.5" pathEffect="8_10" cap="ROUND"/>
+        <apply minzoom="16" maxzoom="16" strokeWidth="3" pathEffect="8_10" cap="ROUND"/>
+        <apply minzoom="17" maxzoom="17" strokeWidth="4" pathEffect="8_10" cap="ROUND"/>
+        <apply minzoom="18" strokeWidth="5" pathEffect="8_10" cap="ROUND"/>
 			</switch>
-			<case minzoom="14" tag="cycleway" value="share_busway" pathEffect="8_8"/>
-			<case minzoom="14" tag="cycleway" value="shared_lane" pathEffect="8_8"/>
-			<case minzoom="14" tag="cycleway:both" value="shared_lane" pathEffect="8_8"/>
-			<case minzoom="16" tag="cycleway" value="opposite" pathEffect="2_4"/>
-			<case minzoom="14" tag="bicycle_road" value="yes" pathEffect="2_4"/>
-      <apply minzoom="14" maxzoom="14" strokeWidth="1.5"/>
-      <apply minzoom="15" maxzoom="15" strokeWidth="2"/>
-      <apply minzoom="16" strokeWidth="3"/>
+			<case minzoom="14" tag="cycleway" value="share_busway" pathEffect="8_10"/>
+			<case minzoom="14" tag="cycleway" value="shared_lane" pathEffect="8_10"/>
+			<case minzoom="14" tag="cycleway:both" value="shared_lane" pathEffect="8_10"/>
+			<case minzoom="16" tag="cycleway" value="opposite" pathEffect="6_10"/>
+			<case minzoom="14" tag="bicycle_road" value="yes" pathEffect="6_10"/>
+      <apply minzoom="14" maxzoom="14" strokeWidth="1.5" cap="ROUND"/>
+      <apply minzoom="15" maxzoom="15" strokeWidth="2.5" cap="ROUND"/>
+      <apply minzoom="16" maxzoom="16" strokeWidth="3" cap="ROUND"/>
+      <apply minzoom="17" maxzoom="17" strokeWidth="4" cap="ROUND"/>
+      <apply minzoom="18" strokeWidth="5" cap="ROUND"/>
 			<apply color="#0060ff"/>
 			<!-- Disable cycleways in OpenGL engine if cycleway:left/right is present. This is needed for backward compatibility -->
 			<apply_if engine_v1="false" additional="osmand_cycleway=no" disable="true"/>
 		</switch>
+    <switch minzoom="14">
+      <case tag="cycleway" value="track"/>
+      <case tag="cycleway:both" value="track"/>
+      <apply minzoom="14" maxzoom="14" strokeWidth="1.5" cap="ROUND"/>
+      <apply minzoom="15" maxzoom="15" strokeWidth="2.5" cap="ROUND"/>
+      <apply minzoom="16" maxzoom="16" strokeWidth="3" cap="ROUND"/>
+      <apply minzoom="17" maxzoom="17" strokeWidth="4" cap="ROUND"/>
+      <apply minzoom="18" strokeWidth="5" cap="ROUND"/>
+			<apply color="$cyclewayColorDay"/>
+    </switch>
 		<switch engine_v1="false" baseAppMode="bicycle" minzoom="13">
 			<case tag="osmand_cycleway_trunk_left" value="true">
 				<apply_if maxzoom="14" hmargin="4"/>
@@ -1773,10 +1776,12 @@
 				<apply_if minzoom="18" maxzoom="18" hmargin="-5.5"/>
 				<apply_if minzoom="19" hmargin="-7"/>
 			</case>
-			<apply minzoom="13" maxzoom="13" strokeWidth="1" pathEffect=""/>
-			<apply minzoom="14" maxzoom="14" strokeWidth="1.5" pathEffect="8_4"/>
-			<apply minzoom="15" maxzoom="15" strokeWidth="2" pathEffect="8_4"/>
-			<apply minzoom="16" strokeWidth="3" pathEffect="8_4"/>
+			<apply minzoom="13" maxzoom="13" strokeWidth="1" pathEffect="6_6" cap="ROUND"/>
+      <apply minzoom="14" maxzoom="14" strokeWidth="2" pathEffect="6_6" cap="ROUND"/>
+      <apply minzoom="15" maxzoom="15" strokeWidth="2" pathEffect="8_8" cap="ROUND"/>
+      <apply minzoom="16" maxzoom="16" strokeWidth="2.5" pathEffect="8_8" cap="ROUND"/>
+      <apply minzoom="17" maxzoom="17" strokeWidth="4" pathEffect="8_8" cap="ROUND"/>
+      <apply minzoom="18" strokeWidth="5" pathEffect="6_15" cap="ROUND"/>
 			<apply color="#0060ff"/>
 		</switch>
 		<case minzoom="15" tag="sidewalk" value="yes">
