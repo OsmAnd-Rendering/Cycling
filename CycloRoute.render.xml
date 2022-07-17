@@ -1420,7 +1420,7 @@
         <case maxzoom="8" strokeWidth_2="1"/>
         <case minzoom="9" maxzoom="11" strokeWidth_2="1.5" pathEffect_2="2_3"/>
         <case minzoom="11" strokeWidth_2="1.5" pathEffect_2="3_5"/>
-      <!--						<apply_if minzoom="7" shader="topo_glacier"/>-->
+      </switch>
     </switch>
 	</polygon>
 
