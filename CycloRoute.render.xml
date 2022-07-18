@@ -1493,7 +1493,7 @@
 			</apply_if>
 		</switch>
 		<group>
-			<group noPolygons="true" color_4="$trackSubstrateColor">
+			<group>
 				<filter tag="highway" value="track" strokeWidth="0.2"/>
 				<!-- color_5 needed for tracks/paths etc. to make them visible over showSurfaces/showSurfaceGrade etc. -->
 				<groupFilter color_5="$trackColor" color="$null">
@@ -1538,6 +1538,7 @@
 					<case additional="access=private" color_5="$accessPrivateColor"/>
 					<case additional="access=no" color_5="$accessPrivateColor"/>
 				</switch>
+			<apply_if noPolygons="true" color_4="$trackSubstrateColor"/>
 			</apply_if>
 			</group>
 
@@ -1580,7 +1581,7 @@
 			</group>
 
 			<!-- Blocks footway/steps/bridleway/cycleway should be unchanged from default renderer -->
-			<group noPolygons="true" color_4="$trackSubstrateColor">
+			<group>
 				<filter tag="highway" value="footway" strokeWidth="0.5">
 					<case additional="footway=crossing" strokeWidth="0.5"/>
 				</filter>
@@ -1596,6 +1597,7 @@
 					<filter minzoom="17" maxzoom="17" strokeWidth_5="4" pathEffect_5="" cap_5="ROUND"/>
 					<filter minzoom="18" strokeWidth_5="5" pathEffect_5="" cap_5="ROUND"/>
 				</groupFilter>
+      <apply_if noPolygons="true" color_4="$trackSubstrateColor"/>
 			</group>
 
 			<group>
