@@ -1,5 +1,5 @@
 # OsmAnd_Cycling_Map
-Estilo para bicicleta para la aplicación Osmand
+Estilo para ciclismo y cicloturismo en la aplicación Osmand
 
 - 🇬🇧 **[English](README-EN.md)**<br>
 🇫🇷 [Français](README.md)
