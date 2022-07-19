@@ -1,7 +1,7 @@
 # OsmAnd_Cycling_Map
 OsmAnd render  for cycling
 
-- 🇬🇧 **[English](README-EN.md)**<br>
+- 🇬🇧 **[English](README_EN.md)**<br>
 🇫🇷 [French](README.md)<br>
 🇪🇸 [Spain](README_ES.md)
 <br>
