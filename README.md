@@ -2,7 +2,7 @@
 OsmAnd render  for cycling
 
 - 🇫🇷 **[Français](README.md)**<br>
-🇪🇸 [Español](README-ES.md)<br>
+🇪🇸 [Español](README_ES.md)<br>
 🇬🇧 [English](README_EN.md)
 
 ## Changements notables par rapport aux styles standard :
