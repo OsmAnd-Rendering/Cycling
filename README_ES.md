@@ -2,7 +2,7 @@
 Estilo para ciclismo y cicloturismo en la aplicación Osmand
 
 - 🇪🇸 **[Español](README-ES.md)**<br>
-🇬🇧 [Ingleses](README-EN.md)<br>
+🇬🇧 [Inglés](README_EN.md)<br>
 🇫🇷 [Francés](README.md)
 
 <br>
