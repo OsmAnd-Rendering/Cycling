@@ -1,8 +1,9 @@
 # OsmAnd_Cycling_Map
 Estilo para ciclismo y cicloturismo en la aplicación Osmand
 
-- 🇬🇧 **[English](README-EN.md)**<br>
-🇫🇷 [Français](README.md)
+- 🇪🇸 **[Español](README-ES.md)**<br>
+🇬🇧 [Ingleses](README-EN.md)<br>
+🇫🇷 [Francés](README.md)
 
 <br>
 
