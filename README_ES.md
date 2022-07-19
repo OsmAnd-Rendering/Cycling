@@ -33,10 +33,10 @@ Estilo para ciclismo y cicloturismo en la aplicación Osmand
   <img src="IMG_6301.PNG" width="200" />
 </p>
 
-## Instalar rl estilo
+## Instalar el estilo
 Funciona en Android y iOS.
 
-- Descarga el archivo [CycloRoute.render.xml](https://raw.githubusercontent.com/Hades1503/OsmAnd_Cycling_Map/main/CycloRoute.render.xml)
+- Descargar el archivo [CycloRoute.render.xml](https://raw.githubusercontent.com/Hades1503/OsmAnd_Cycling_Map/main/CycloRoute.render.xml)
   - **Desde un ordenador** : Click derecho en [este enlace](https://github.com/Hades1503/OsmAnd_Cycling_Map/raw/main/CycloRoute.render.xml) → <kbd><samp>Guardar enlace como...</samp></kbd>.
   - **Desde un smartphone** : Mantén presionado [este enlace](https://github.com/Hades1503/OsmAnd_Cycling_Map/raw/main/CycloRoute.render.xml) → <kbd><samp>Descargar enlace</samp></kbd>.<br>
     <br>
