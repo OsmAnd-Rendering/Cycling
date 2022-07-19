@@ -2,8 +2,8 @@
 OsmAnd render  for cycling
 
 - 🇬🇧 **[English](README-EN.md)**<br>
-🇫🇷 [Français](README.md)
-
+🇫🇷 [French](README.md)<br>
+🇪🇸 [Spain](README-ES.md)
 <br>
 
 ## Notable features over standard styles:
