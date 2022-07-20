@@ -8,6 +8,8 @@ OsmAnd render  for cycling
 ## Changements notables par rapport aux styles standard :
 <br>
 
+
+
 - Pistes cyclables plus lisibles et visibles.
 - POI utiles / intéressants mis en évidence
 - Couleur des terres et utilisations de l'eau
@@ -15,21 +17,19 @@ OsmAnd render  for cycling
 - Réglage supplémentaire pour le cyclotourisme
 - Paramètre supplémentaire pour masquer les logos d'utilisation des terres
 - Encore plus ; )
-<br><br><br><br>
-<p float="left">
-  <img src="IMG_6303.PNG" width="200" />
-  <img src="IMG_6304.PNG" width="200" />
-</p>
+<br><br><br>
 
-<p float="left">
-  <img src="IMG_6296.PNG" width="200" />
-  <img src="IMG_6297.PNG" width="200" />
-  <img src="IMG_6298.PNG" width="200" />
-  <img src="IMG_6299.PNG" width="200" />
-  <img src="IMG_6300.PNG" width="200" />
-  <img src="IMG_6301.PNG" width="200" />
-</p>
-<br><br>
+## Screenshot for Cycling
+
+| OsmAnd  | CycloRoute | CyclOSM |
+| :-------------: | :-------------: | :-------------: |
+| <img src="Screenshots/OsmAnd_Cycling.gif" width="300" /> | <img src="Screenshots/CycloRoute_Cycling.gif" width="300" /> | <img src="Screenshots/CyclOSM_Cycling.gif" width="300" /> |
+
+## Screenshot for CycloTouring
+
+| OsmAnd  | CycloRoute | CyclOSM |
+| :-------------: | :-------------: | :-------------: |
+| <img src="Screenshots/OsmAnd_Touring.gif" width="300" />  | <img src="Screenshots/CycloRoute_Touring.gif" width="300" />  | <img src="Screenshots/CyclOSM_Touring.gif" width="300" />  |
 
 ## Installer le rendu
 Applicable sur Android et iOS.

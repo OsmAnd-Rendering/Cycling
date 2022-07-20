@@ -16,21 +16,19 @@ OsmAnd render  for cycling
 - Additional setting for cyclotouring
 - Additional setting to hide land use logos
 - Even more ;)
-<br><br><br><br>
+<br><br><br>
 
-<p float="left">
-  <img src="IMG_6303.PNG" width="200" />
-  <img src="IMG_6304.PNG" width="200" />
-</p>
+## Screenshot for Cycling
 
-<p float="left">
-  <img src="IMG_6296.PNG" width="200" />
-  <img src="IMG_6297.PNG" width="200" />
-  <img src="IMG_6298.PNG" width="200" />
-  <img src="IMG_6299.PNG" width="200" />
-  <img src="IMG_6300.PNG" width="200" />
-  <img src="IMG_6301.PNG" width="200" />
-</p>
+| OsmAnd  | CycloRoute | CyclOSM |
+| :-------------: | :-------------: | :-------------: |
+| <img src="Screenshots/OsmAnd_Cycling.gif" width="300" /> | <img src="Screenshots/CycloRoute_Cycling.gif" width="300" /> | <img src="Screenshots/CyclOSM_Cycling.gif" width="300" /> |
+
+## Screenshot for CycloTouring
+
+| OsmAnd  | CycloRoute | CyclOSM |
+| :-------------: | :-------------: | :-------------: |
+| <img src="Screenshots/OsmAnd_Touring.gif" width="300" />  | <img src="Screenshots/CycloRoute_Touring.gif" width="300" />  | <img src="Screenshots/CyclOSM_Touring.gif" width="300" />  |
 
 ## Install the render
 Works on Android and iOS.
