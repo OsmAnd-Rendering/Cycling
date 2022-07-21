@@ -313,6 +313,8 @@
 	</renderingAttribute>
 	<!-- Primary  -->
 	<renderingAttribute name="primaryRoadColor">
+		<case baseAppMode="bicycle" additional="cyclestreet=yes" attrColorValue="#0060ff"/>
+		<case baseAppMode="bicycle" additional="bicycle_road=yes" attrColorValue="#0060ff"/>
 		<case roadStyle="germanRoadAtlas" attrColorValue="#ff80a0">
 			<apply_if additional="tunnel=yes" attrColorValue="#FFD6E0"/>
 			<apply_if additional="covered=yes" attrColorValue="#FFD6E0"/>
@@ -357,6 +359,8 @@
 	</renderingAttribute>
 	<!-- Secondary  -->
 	<renderingAttribute name="secondaryRoadColor">
+		<case baseAppMode="bicycle" additional="cyclestreet=yes" attrColorValue="#0060ff"/>
+		<case baseAppMode="bicycle" additional="bicycle_road=yes" attrColorValue="#0060ff"/>
 		<case roadStyle="germanRoadAtlas" attrColorValue="#ffd080">
 			<apply_if additional="tunnel=yes" attrColorValue="#FFEAC7"/>
 			<apply_if additional="covered=yes" attrColorValue="#FFEAC7"/>
@@ -393,6 +397,8 @@
 	</renderingAttribute>
   <!-- Tertiary  -->
 	<renderingAttribute name="tertiaryRoadColor">
+		<case baseAppMode="bicycle" additional="cyclestreet=yes" attrColorValue="#0060ff"/>
+		<case baseAppMode="bicycle" additional="bicycle_road=yes" attrColorValue="#0060ff"/>
 		<case roadStyle="germanRoadAtlas" attrColorValue="#ffff80">
 			<apply_if additional="tunnel=yes" attrColorValue="#FFFFD1"/>
 			<apply_if additional="covered=yes" attrColorValue="#FFFFD1"/>
@@ -431,6 +437,8 @@
 	</renderingAttribute>
 	<!-- Residential  -->
 	<renderingAttribute name="residentialRoadColor">
+		<case baseAppMode="bicycle" additional="cyclestreet=yes" attrColorValue="#0060ff"/>
+		<case baseAppMode="bicycle" additional="bicycle_road=yes" attrColorValue="#0060ff"/>
 		<case roadStyle="highContrastRoads" attrColorValue="#ffe778">
 			<apply_if additional="tunnel=yes" attrColorValue="#FFF4C4"/>
 			<apply_if additional="covered=yes" attrColorValue="#FFF4C4"/>
@@ -454,6 +462,8 @@
 	</renderingAttribute>
 	<!-- Service  -->
 	<renderingAttribute name="serviceRoadColor">
+		<case baseAppMode="bicycle" additional="cyclestreet=yes" attrColorValue="#0060ff"/>
+		<case baseAppMode="bicycle" additional="bicycle_road=yes" attrColorValue="#0060ff"/>
 		<case roadStyle="highContrastRoads" attrColorValue="#fff3ba">
 			<apply_if additional="tunnel=yes" attrColorValue="#FFF8D9"/>
 			<apply_if additional="covered=yes" attrColorValue="#FFF8D9"/>
@@ -483,6 +493,8 @@
 		</case>
 	</renderingAttribute>
 	<renderingAttribute name="unclassifiedRoadColor">
+		<case baseAppMode="bicycle" additional="cyclestreet=yes" attrColorValue="#0060ff"/>
+		<case baseAppMode="bicycle" additional="bicycle_road=yes" attrColorValue="#0060ff"/>
 		<!--<case surfaceIntegrity="true" minzoom="12" attrColorValue="$highwaySurfaceIntegrityColor"/>-->
 		<case attrColorValue="#ffffff">
 			<apply_if additional="tunnel=yes" attrColorValue="#FFEFDB"/>
