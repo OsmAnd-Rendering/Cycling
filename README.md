@@ -26,55 +26,51 @@
 ### Mode CycloTourisme
 | <img src="Screenshots/CycloRoute_Touring-1.png" width="250" /> | <img src="Screenshots/CycloRoute_Touring-2.png" width="250" /> | <img src="Screenshots/CycloRoute_Touring-3.png" width="250" /> |
 | :-------------: | :-------------: | :-------------: |
+<br>
 ---
 
 ## Télécharger le rendu
-Applicable sur Android et iOS.
+Applicable sur PC, Android et iOS.
 
-- Télécharger le fichier [CycloRoute.render.xml](https://raw.githubusercontent.com/Hades1503/OsmAnd_Cycling_Map/main/CycloRoute.render.xml)
-  - **Depuis un ordinateur** : Faites un clic droit sur [ce lien](https://github.com/Hades1503/OsmAnd_Cycling_Map/raw/main/CycloRoute.render.xml) → <kbd><samp>Enregistrer la cible du lien sous...</samp></kbd>.
-  - **Depuis un smartphone** : Faites un appui long sur [ce lien](https://github.com/Hades1503/OsmAnd_Cycling_Map/raw/main/CycloRoute.render.xml) → <kbd><samp>Télécharger la cible du lien</samp></kbd>.<br>
-    <br>
-    *Tutoriel réalisé sous le navigateur <a href="https://www.mozilla.org/fr/firefox/new/">Firefox</a> – les termes utilisés peuvent être différents avec un autre.*<br>
-    <br>
+- Télécharger le fichier en faisant un clic droit/ un appui long sur [ce lien](https://github.com/Hades1503/OsmAnd_Cycling_Map/raw/main/CycloRoute.render.xml)
+    - Télécharger la cible du lien.<br><br>
+---
+
+
+
 ## Installer le rendu
-| Android | iOS |
-|---------------------------------------|-----------------------------------------------------------|
-|1 - À l'aide d'un gestionnaire de fichiers, `déplacez le fichier xml téléchargé` dans le dossier:<br>`Android / data / net.osmand.plus / files / rendering`<br>2 -  `Fermez l'application` Osmand avec le bouton carré d'android- Ouvrez OsmAnd, puis dans le menu latéral gauche, sélectionnez `Paramétrer la carte`<br>3 - Descendez à `Style de la carte`<br> 4 - Sélectionnez `CycloRoute`, votre nouveau rendu.<br>5 - Terminé ! 🎉 |1 - Ouvrez votre téléchargement, puis choisissez `Ouvrir avec OsmAnd`. Votre style a été importé!<br>2 - Ouvrez OsmAnd, puis dans le menu latéral gauche, sélectionnez sur `Paramétrer la carte`<br>3 - Descendez à `Style de la carte`<br>4 - Sélectionnez `CycloRoute`, votre nouveau rendu.<br>5 - Terminé ! 🎉 | 
+<table>
+    <thead>
+    <tr>
+        <th>Android</th>
+        <th>iOS</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td width="50%">1 - À l'aide d'un gestionnaire de fichiers, <code>déplacez le fichier xml téléchargé</code> dans le dossier:<br><code>Android / data / net.osmand.plus / files / rendering</code><br>2 -  <code>Fermez l'application</code> Osmand avec le bouton carré d'android- Ouvrez OsmAnd, puis dans le menu latéral gauche, sélectionnez <code>Paramétrer la carte</code><br>3 - Descendez à <code>Style de la carte</code><br> 4 - Sélectionnez <code>CycloRoute</code>, votre nouveau rendu.<br>5 - Terminé ! 🎉</td>
+        <td>1 - Ouvrez votre téléchargement, puis choisissez <code>Ouvrir avec OsmAnd</code>. Votre style a été importé!<br>2 - Ouvrez OsmAnd, puis dans le menu latéral gauche, sélectionnez sur <code>Paramétrer la carte</code><br>3 - Descendez à <code>Style de la carte</code><br>4 - Sélectionnez <code>CycloRoute</code>, votre nouveau rendu.<br>5 - Terminé ! 🎉</td>
+    </tr>
+    <tbody>
+</table>
 
-<br><br>
+<br>
 
 ---
 
-## Configurer la carte pour le vélo
-<br>
+## Configurer la carte 
 
-### Pour tirer le meilleur parti de ce rendu pour le CYCLISME, veuillez procéder comme expliqué ci-dessous :
-
-   - Aller au réglage de la carte
-     - Appuyez sur "Masquer"
-       - Masquer les étiquettes POI
-       - Masquer les icônes POI
-
-*L'écran n'affichera que les POI utiles pour le cyclisme*
-<br><br><br>
-
-
-
-## Configurer la carte pour le cyclotourisme
-<br>
-
-### Pour tirer le meilleur parti de ce rendu pour le CYCLOTOURISME, veuillez procéder comme expliqué ci-dessous :
-
-   - Aller au réglage de la carte
-     - Appuyez sur "Masquer"
-       - Masquer les étiquettes POI
-       - Masquer les icônes POI
-
-**puis**
-
-   - Aller au réglage de la carte
-     - Appuyez sur "Détails"
-       - activer POI pour Cyclotourisme
-
-*L'écran n'affichera que les POI utiles pour le Cyclotourisme en plus de ceux pour le vélo.*
+<table>
+    <thead>
+    <tr>
+        <th>Pour le vélo</th>
+        <th>Pour le cyclotourisme</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td width="50%"> <ul><li>Aller au réglage de la carte<ul><li>Appuyez sur "Masquer"<ul><li>Masquer les étiquettes POI </li><li>Masquer les étiquettes POI</li></ul></li></ul></li></ul> <br><br><br><br><br><br><br>*L'écran n'affichera que les POI utiles pour le cyclisme*</td>
+        <td><ul><li>Aller au réglage de la carte<ul><li>Appuyez sur "Masquer"<ul><li>Masquer les étiquettes POI</li><li>Masquer les étiquettes POI</li></ul></li></ul></li></ul> <strong>puis</strong> <br><br> <ul><li>Aller au réglage de la carte<ul><li>Appuyez sur "Détails" <ul><li>Activer POI pour Cyclotourisme</li></ul></li></ul></li></ul><br>*L'écran n'affichera que les POI utiles pour le Cyclotourisme en plus de ceux pour le vélo.*</td>
+    </tr>
+    <tbody>
+</table>
