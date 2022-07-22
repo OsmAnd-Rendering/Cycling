@@ -28,7 +28,7 @@
 | :-------------: | :-------------: | :-------------: |
 ---
 
-## Installer le rendu
+## Télécharger le rendu
 Applicable sur Android et iOS.
 
 - Télécharger le fichier [CycloRoute.render.xml](https://raw.githubusercontent.com/Hades1503/OsmAnd_Cycling_Map/main/CycloRoute.render.xml)
@@ -37,7 +37,7 @@ Applicable sur Android et iOS.
     <br>
     *Tutoriel réalisé sous le navigateur <a href="https://www.mozilla.org/fr/firefox/new/">Firefox</a> – les termes utilisés peuvent être différents avec un autre.*<br>
     <br>
-
+## Installer le rendu
 | Android | iOS |
 |---------------------------------------|-----------------------------------------------------------|
 | <br> 1 - À l'aide d'un gestionnaire de fichiers, `déplacez le fichier xml téléchargé` dans le dossier:<br>`Android / data / net.osmand.plus / files / rendering`<br>2 -  `Fermez l'application` Osmand avec le bouton carré d'android- Ouvrez OsmAnd, puis dans le menu latéral gauche, sélectionnez `Paramétrer la carte`<br>3 - Descendez à `Style de la carte`<br> 4 - Sélectionnez `CycloRoute`, votre nouveau rendu.<br>5 - Terminé ! 🎉 |1 - Ouvrez votre téléchargement, puis choisissez `Ouvrir avec OsmAnd`. Votre style a été importé!<br>2 - Ouvrez OsmAnd, puis dans le menu latéral gauche, sélectionnez sur `Paramétrer la carte`<br>3 - Descendez à `Style de la carte`<br>4 - Sélectionnez `CycloRoute`, votre nouveau rendu.<br>5 - Terminé ! 🎉 | 
