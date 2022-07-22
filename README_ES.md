@@ -2,8 +2,8 @@
 Estilo para ciclismo y cicloturismo en la aplicación Osmand
 
 - 🇪🇸 **[Español](README_ES.md)**<br>
-🇬🇧 [Inglés](README_EN.md)<br>
-🇫🇷 [Francés](README.md)
+🇬🇧 [English](README_EN.md)<br>
+🇫🇷 [Français](README.md)
 
 <br>
 
@@ -21,15 +21,15 @@ Estilo para ciclismo y cicloturismo en la aplicación Osmand
 
 ## Screenshot for Cycling
 
-| OsmAnd  | CycloRoute | CyclOSM |
+| CycloRoute | CyclOSM | OsmAnd |
 | :-------------: | :-------------: | :-------------: |
-| <img src="Screenshots/OsmAnd_Cycling.gif" width="300" /> | <img src="Screenshots/CycloRoute_Cycling.gif" width="300" /> | <img src="Screenshots/CyclOSM_Cycling.gif" width="300" /> |
+| <img src="Screenshots/CycloRoute_Cycling.gif" width="250" /> | <img src="Screenshots/CyclOSM_Cycling.gif" width="250" /> | <img src="Screenshots/OsmAnd_Cycling.gif" width="250" /> |
 
 ## Screenshot for CycloTouring
 
-| OsmAnd  | CycloRoute | CyclOSM |
+| CycloRoute | CyclOSM | OsmAnd |
 | :-------------: | :-------------: | :-------------: |
-| <img src="Screenshots/OsmAnd_Touring.gif" width="300" />  | <img src="Screenshots/CycloRoute_Touring.gif" width="300" />  | <img src="Screenshots/CyclOSM_Touring.gif" width="300" />  |
+| <img src="Screenshots/CycloRoute_Touring.gif" width="250" /> | <img src="Screenshots/CyclOSM_Touring.gif" width="250" /> | <img src="Screenshots/OsmAnd_Touring.gif" width="250" /> |
 
 ## Instalar el estilo
 Funciona en Android y iOS.
@@ -40,16 +40,23 @@ Funciona en Android y iOS.
     <br>
     *Tutorial hecho con el navegador <a href="https://www.mozilla.org/es-ES/firefox/new/">Firefox</a> – los términos pueden ser diferentes al usar otro navegador.*<br>
     <br>
+### Con iOS
 - Abrir el archivo descargado, y elegir `Abrir con OsmAnd`. El estilo ha sido importado!
 - Abrir OsmAnd, luego en el menu de la izquierda pulsar `Configurar mapa`
 - Bajar hasta `Estilo del mapa` y pulsar
 - Seleccionar `CycloRoute`, tu nuevo estilo.
 - Terminado, a disfrutar! 🎉
-<br>
-<details>
-    <summary><i>Android ; Método alternativo</i></summary>
-        <p>Una vez descargado el archivo, moverlo a la carpeta Android → Data → net.osmand.plus → files → rendering.</p>
-</details>
+    <br>
+
+### Con Android
+- Con un explorador de archivos, `mover el archivo xml descargado` a la carpeta:<br>
+`Android / data / net.osmand.plus / files / rendering`
+- `Cerrar Osmand` con el botón cuadrado de Android
+- Una vez reiniciado, en el menu lateral a la izquierda seleccionar `Configurar mapa`
+- Bajar a `Estilo de mapa`
+- Seleccionar `CycloRoute` en la lista.
+- Terminado, a disfrutar! 🎉
+
 <br><br><br>
 
 ## Configurar el mapa para el ciclismo
@@ -57,10 +64,10 @@ Funciona en Android y iOS.
 
 ### Para aprovechar al máximo este estilo para el CICLISMO, proceder como se explica a continuación:
 
-  - Ir a configurar mapa
-    - Pulsar "Ocultar"
-      - Ocultar iconos de PDI
-      - Ocultar etiquetas de PDI
+Ir a `configurar mapa`
+- Pulsar "Ocultar"
+     - Ocultar iconos de PDI
+     - Ocultar etiquetas de PDI
 
 *La pantalla mostrará sólo los PDI útiles para la bici*
 <br><br>
@@ -71,15 +78,13 @@ Funciona en Android y iOS.
 
 ### Para aprovechar al máximo este estilo para el CICLOTURISMO, proceder como se explica a continuación:
 
-  - Ir a configurar mapa
-    - Pulsar "Ocultar"
-      - Ocultar iconos de PDI
-      - Ocultar etiquetas de PDI
+Ir a `configurar mapa`
+- Activar "Rutas ciclistas"
 
-**Luego**
-
-  - Ir a configurar mapa
-    - Pulsar "Detalles"
+- Pulsar "Ocultar"
+     - Ocultar iconos de PDI
+     - Ocultar etiquetas de PDI
+- Pulsar "Detalles"
       - Activar POI for Cyclotouring
 
 *La pantalla mostrará los PDI que sean útiles para el cicloturismo, además de los del ciclismo.*
