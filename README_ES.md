@@ -18,11 +18,11 @@ Un estilo de mapa para Osmand, enfocado en la práctica de la bici y del ciclotu
 
 ## Screenshots<br>
 ### Bici
-| <img src="Screenshots/CycloRoute_Cycling-1.png" width="250" /> | <img src="Screenshots/CycloRoute_Cycling-2.png" width="250" /> | <img src="Screenshots/CycloRoute_Cycling-3.png" width="250" /> |
+| <img src="Screenshots/CycloRoute_Cycling-1.png" width="90%" /> | <img src="Screenshots/CycloRoute_Cycling-2.png" width="90%" /> | <img src="Screenshots/CycloRoute_Cycling-3.png" width="90%" /> |
 | :-------------: | :-------------: | :-------------: |
 
 ### Cicloturismo
-| <img src="Screenshots/CycloRoute_Touring-1.png" width="250" /> | <img src="Screenshots/CycloRoute_Touring-2.png" width="250" /> | <img src="Screenshots/CycloRoute_Touring-3.png" width="250" /> |
+| <img src="Screenshots/CycloRoute_Touring-1.png" width="90%" /> | <img src="Screenshots/CycloRoute_Touring-2.png" width="90%" /> | <img src="Screenshots/CycloRoute_Touring-3.png" width="90%" /> |
 | :-------------: | :-------------: | :-------------: |
 ---
 
@@ -59,16 +59,16 @@ Click derecho o mantén presionado [este enlace](https://github.com/Hades1503/Os
           <li> Seleccionar <code>CycloRoute</code></li>
           <li> Listo! 🎉</li></ul></td>
     </tr>
-    <tbody>
+    </tbody>
 </table>
 
 <br>
 
 ## Configurar el mapa
 
-<table width="100%">
+<table>
     <thead>
-    <tr>
+    <tr bgcolor="#cccccc">
         <th>Bici</th>
         <th>Cicloturismo</th>
     </tr>
@@ -76,36 +76,34 @@ Click derecho o mantén presionado [este enlace](https://github.com/Hades1503/Os
     <tbody>
     <tr valign="top">
         <td width="50%">
-          Ir a <code>configurar mapa</code><p>
-        <ul>
-        <li>Pulsar "Ocultar"
+            Ir a <code>configurar mapa</code><p>
             <ul>
-            <li>Ocultar iconos de PDI</li>
-            <li>Ocultar etiquetas de PDI</li>
+                <li>Pulsar "Ocultar"
+                    <ul>
+                        <li>Ocultar iconos de PDI</li>
+                        <li>Ocultar etiquetas de PDI</li>
+                    </ul>
             </ul>
-         </ul>
-          <p><br><br><br>
-<em>La pantalla mostrará sólo los PDI útiles para la bici</em>          
-      </td>
+            <p><br><br><br>
+            <em>La pantalla mostrará sólo los PDI útiles para la bici</em>          
+        </td>
         <td>
-        Ir a <code>configurar mapa</code><p>
-        <ul>
-        <li>Pulsar "Ocultar"
+            Ir a <code>configurar mapa</code><p>
             <ul>
-            <li>Ocultar iconos de PDI</li>
-            <li>Ocultar etiquetas de PDI</li>
-            </ul><p>
-        <li>Pulsar "Detalles"
-          <ul>
-           <li>Activar POI for Cyclotouring
-          </ul>
-          </ul>
-          <p>
-  <em>La pantalla mostrará los PDI útiles para el cicloturismo</em>
-      </td>
-      </tr>
-    <tbody>
+                <li>Pulsar "Ocultar"
+                    <ul>
+                        <li>Ocultar iconos de PDI</li>
+                        <li>Ocultar etiquetas de PDI</li>
+                    </ul><p>
+                <li>Pulsar "Detalles"
+                    <ul>
+                        <li>Activar POI for Cyclotouring
+                    </ul>
+            </ul>
+            <p>
+            <em>La pantalla mostrará los PDI útiles para el cicloturismo</em>
+        </td>
+    </tr>
+    </tbody>
 </table>
-
-
 
