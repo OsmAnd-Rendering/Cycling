@@ -1,11 +1,10 @@
 # OsmAnd_Cycling_Map
 OsmAnd render  for cycling
 
-- 🇫🇷 **[Français](README.md)**<br>
-🇪🇸 [Español](README_ES.md)<br>
-🇬🇧 [English](README_EN.md)
+| 🇫🇷 [Français](README.md)|🇪🇸 [Español](README_ES.md)|🇬🇧 [English](README_EN.md)|
+|:---:|:---:|:---:|
 
-## Changements notables par rapport aux styles standard :
+# Changements notables par rapport aux styles standard :
 <br>
 
 
@@ -17,19 +16,19 @@ OsmAnd render  for cycling
 - Réglage supplémentaire pour le cyclotourisme
 - Paramètre supplémentaire pour masquer les logos d'utilisation des terres
 - Encore plus ; )
-<br><br><br>
+<br><br>
+---
 
-## Screenshot for Cycling
+## Screenshot
 
-| OsmAnd | CycloRoute | CyclOSM |
+| **Mode vélo** |||
 | :-------------: | :-------------: | :-------------: |
-| <img src="Screenshots/OsmAnd_Cycling.gif" width="250" /> | <img src="Screenshots/CycloRoute_Cycling.gif" width="250" /> | <img src="Screenshots/CyclOSM_Cycling.gif" width="250" /> |
+| <img src="Screenshots/CycloRoute_Cycling-1.png" width="250" /> | <img src="Screenshots/CycloRoute_Cycling-2.png" width="250" /> | <img src="Screenshots/CycloRoute_Cycling-3.png" width="250" /> |
 
-## Screenshot for CycloTouring
 
-| OsmAnd | CycloRoute | CyclOSM |
+| **Mode CycloTourisme** |||
 | :-------------: | :-------------: | :-------------: |
-| <img src="Screenshots/OsmAnd_Touring.gif" width="250" />  | <img src="Screenshots/CycloRoute_Touring.gif" width="250" />  | <img src="Screenshots/CyclOSM_Touring.gif" width="250" />  |
+| <img src="Screenshots/CycloRoute_Touring-1.png" width="250" /> | <img src="Screenshots/CycloRoute_Touring-2.png" width="250" /> | <img src="Screenshots/CycloRoute_Touring-3.png" width="250" /> |
 
 ## Installer le rendu
 Applicable sur Android et iOS.
@@ -40,23 +39,11 @@ Applicable sur Android et iOS.
     <br>
     *Tutoriel réalisé sous le navigateur <a href="https://www.mozilla.org/fr/firefox/new/">Firefox</a> – les termes utilisés peuvent être différents avec un autre.*<br>
     <br>
-### Avec iOS
-- Ouvrez votre téléchargement, puis choisissez `Ouvrir avec OsmAnd`. Votre style a été importé !
-- Ouvrez OsmAnd, puis dans le menu latéral gauche, sélectionnez sur `Paramétrer la carte`
-- Descendez à `Style de la carte`
-- Sélectionnez `CycloRoute`, votre nouveau rendu.
-- Terminé ! 🎉
-    <br>
 
-### Avec Android
-- À l'aide d'un gestionnaire de fichiers, `déplacez le fichier xml téléchargé` dans le dossier:<br>
-`Android / data / net.osmand.plus / files / rendering`
-- `Fermez l'application` Osmand avec le bouton carré d'android
-- Ouvrez OsmAnd, puis dans le menu latéral gauche, sélectionnez `Paramétrer la carte`
-- Descendez à `Style de la carte`
-- Sélectionnez `CycloRoute`, votre nouveau rendu.
-- Terminé ! 🎉
-<br>
+| Android | iOS |
+|-----------------------------------------------------------|-----------------------------------------------------------|
+| <br> 1 - À l'aide d'un gestionnaire de fichiers, `déplacez le fichier xml téléchargé` dans le dossier:<br>`Android / data / net.osmand.plus / files / rendering`<br>2 -  `Fermez l'application` Osmand avec le bouton carré d'android- Ouvrez OsmAnd, puis dans le menu latéral gauche, sélectionnez `Paramétrer la carte`<br>3 - Descendez à `Style de la carte`<br> 4 - Sélectionnez `CycloRoute`, votre nouveau rendu.<br>5 - Terminé ! 🎉 |1 - Ouvrez votre téléchargement, puis choisissez `Ouvrir avec OsmAnd`. Votre style a été importé!<br>2 - Ouvrez OsmAnd, puis dans le menu latéral gauche, sélectionnez sur `Paramétrer la carte`<br>3 - Descendez à `Style de la carte`<br>4 - Sélectionnez `CycloRoute`, votre nouveau rendu.<br>5 - Terminé ! 🎉 | 
+
 <br><br><br>
 
 ## Configurer la carte pour le vélo
