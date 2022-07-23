@@ -1,9 +1,8 @@
 # CycloRoute
-A map style for Osmand, focused on the practice of cycling and cycloTouring<br><br>
 
-- 🇬🇧 **[English](README_EN.md)**🇫🇷 [Français](README.md) 🇪🇸 [Español](README_ES.md)
-<br>
+- 🇬🇧 **[English](README_EN.md)** 🇫🇷 [Français](README.md) 🇪🇸 [Español](README_ES.md)
 
+A map style for OsmAnd, focused on the practice of cycling and cycloTouring<br><br>
 ## Notable features over standard styles:
 <br>
 
