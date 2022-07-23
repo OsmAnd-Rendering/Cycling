@@ -1,9 +1,7 @@
 # OsmAnd_Cycling_Map
 OsmAnd render  for cycling
 
-- 🇬🇧 **[English](README_EN.md)**<br>
-🇫🇷 [French](README.md)<br>
-🇪🇸 [Spanish](README_ES.md)
+- 🇬🇧 **[English](README_EN.md)**🇫🇷 [Français](README.md) 🇪🇸 [Español](README_ES.md)
 <br>
 
 ## Notable features over standard styles:
@@ -16,69 +14,63 @@ OsmAnd render  for cycling
 - Additional setting for cyclotouring
 - Additional setting to hide land use logos
 - Even more ;)
-<br><br><br>
-
-## Screenshot for Cycling
-
-| OsmAnd  | CycloRoute | CyclOSM |
-| :-------------: | :-------------: | :-------------: |
-| <img src="Screenshots/OsmAnd_Cycling.gif" width="300" /> | <img src="Screenshots/CycloRoute_Cycling.gif" width="300" /> | <img src="Screenshots/CyclOSM_Cycling.gif" width="300" /> |
-
-## Screenshot for CycloTouring
-
-| OsmAnd  | CycloRoute | CyclOSM |
-| :-------------: | :-------------: | :-------------: |
-| <img src="Screenshots/OsmAnd_Touring.gif" width="300" />  | <img src="Screenshots/CycloRoute_Touring.gif" width="300" />  | <img src="Screenshots/CyclOSM_Touring.gif" width="300" />  |
-
-## Install the render
-Works on Android and iOS.
-
-- Download the [CycloRoute.render.xml](https://raw.githubusercontent.com/Hades1503/OsmAnd_Cycling_Map/main/CycloRoute.render.xml) file
-  - **From a computer** : Right-click [this link](https://github.com/Hades1503/OsmAnd_Cycling_Map/raw/main/CycloRoute.render.xml) → <kbd><samp>Save Link As...</samp></kbd>.
-  - **From a smartphone** : Long-press [this link](https://github.com/Hades1503/OsmAnd_Cycling_Map/raw/main/CycloRoute.render.xml) → <kbd><samp>Download link</samp></kbd>.<br>
-    <br>
-    *Tutorial made under <a href="https://www.mozilla.org/fr/firefox/new/">Firefox</a> browser – words used might be different with another.*<br>
-    <br>
-- Open your downloaded file, then choose `Open with OsmAnd`. Your style went imported!
-- Open OsmAnd, then on the left sidemenu, press `Configure map`
-- Scroll down to `Map style`
-- Pick `CycloRoute`, your new rendering.
-- Finished, enjoy! 🎉
-<br>
-<details>
-    <summary><i>Android ; Alternative method</i></summary>
-        <p>Once the file downloaded, move it in the folder located at Android → Data → net.osmand.plus → files → rendering.</p>
-</details>
-<br><br><br>
-
-## Configure the map for cycling
-
-
-### To get the most out of this rendering for CYCLING, please proceed as explained below:
-
-  - Go to map setting
-    - Tap on "Hide"
-      - Hide POI labels
-      - Hide POI icons
-
-*The screen will only display the POIs useful for cycling*
 <br><br>
 
+---
 
+## Screenshots<br>
+### Cycling mode
+| <img src="Screenshots/CycloRoute_Cycling-1.png" width="250" /> | <img src="Screenshots/CycloRoute_Cycling-2.png" width="250" /> | <img src="Screenshots/CycloRoute_Cycling-3.png" width="250" /> |
+| :-------------: | :-------------: | :-------------: |
 
-## Configure the map for cyclotouring
+### CycloTouring mode
+| <img src="Screenshots/CycloRoute_Touring-1.png" width="250" /> | <img src="Screenshots/CycloRoute_Touring-2.png" width="250" /> | <img src="Screenshots/CycloRoute_Touring-3.png" width="250" /> |
+| :-------------: | :-------------: | :-------------: |
+<br>
 
-### To get the most out of this rendering for CYCLOTOURING, please proceed as explained below:
+---
 
-  - Go to map setting
-    - Tap on "Hide"
-      - Hide POI labels
-      - Hide POI icons
+## Download rendering
+Applicable on PC, Android and iOS.
 
-**Then**
+- Download the file by right clicking or long pressing on [this link](https://github.com/Hades1503/OsmAnd_Cycling_Map/raw/main/CycloRoute.render.xml)
+    - Download link target.<br><br>
 
-  - Go to map setting
-    - Tap on "Details"
-      - activate POI for Cyclotouring
+---
 
-*The screen will only display the POIs useful for Cyclotouring in addition to those for cycling.*
+## Install Render
+<table>
+    <head>
+    <tr>
+        <th>Android</th>
+        <th>iOS</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td width="50%"><li> Using a file manager, <code>move the downloaded xml file</code> into the folder:<br><code>Android/data/ net.osmand.plus/files/rendering</code><br><li> <code>Close the Osmand application</code> with the android square button<br><li> Open OsmAnd, then in the left side menu, select <code>Map settings</code><br><li> Scroll down to <code>Map style</code><br> <li> Select <code>CycloRoute</code>, your new rendering.<br><li> Done! 🎉</td>
+        <td><li> Open your download, then choose <code>Open with OsmAnd</code>. Your style has been imported!<br><li> Open OsmAnd, then in the left side menu, select on <code>Map settings</code><br><li> Go down to <code>Map style</code><br><li> Select <code>CycloRoute</code>, your new rendering.<br><li> Done! 🎉</td>
+    </tr>
+    <tbody>
+</table>
+
+<br>
+
+---
+
+## Configure map
+
+<table>
+    <head>
+    <tr>
+        <th>For the bike</th>
+        <th>For cycle tourism</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td width="50%"> <ul><li>Go to map setting<ul><li>Press "Hide"<ul><li>Hide POI labels </li><li>Hide POI icons</li></ul></li></ul></li></ul> <br><br><br><br><br>*The screen will only show useful POIs for cycling*</td>
+        <td><ul><li>Go to map setting<ul><li>Press "Hide"<ul><li>Hide POI labels</li><li>Hide POI icons</li ></ul></li></ul></li></ul> <strong>then</strong> <br><br> <ul><li>Go to map setting<ul> <li>Press "Details" <ul><li>Enable POI for Cycle Touring</li></ul></li></ul></li></ul><br> *The screen n will only display useful POIs for Cycle tourism in addition to those for cycling.*</td>
+    </tr>
+    <tbody>
+</table>
