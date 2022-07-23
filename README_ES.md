@@ -2,7 +2,7 @@
 
 - 🇪🇸 **[Español](README_ES.md)** 🇬🇧 [English](README_EN.md) 🇫🇷 [Français](README.md)
 
-Un estilo de mapa para Osmand, enfocado en la práctica de la bici y del cicloturismo<br><br>
+Un estilo de mapa para OsmAnd, enfocado en la práctica de la bici y del cicloturismo<br><br>
 
 ## Características del estilo
 <br>
