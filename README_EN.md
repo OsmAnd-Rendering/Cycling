@@ -1,5 +1,5 @@
-# OsmAnd_Cycling_Map
-OsmAnd render  for cycling
+# CycloRoute
+A map style for Osmand, focused on the practice of cycling and cycloTouring<br><br>
 
 - 🇬🇧 **[English](README_EN.md)**🇫🇷 [Français](README.md) 🇪🇸 [Español](README_ES.md)
 <br>
@@ -69,8 +69,8 @@ Applicable on PC, Android and iOS.
     </thead>
     <tbody>
     <tr>
-        <td width="50%"> <ul><li>Go to map setting<ul><li>Press "Hide"<ul><li>Hide POI labels </li><li>Hide POI icons</li></ul></li></ul></li></ul> <br><br><br><br><br>*The screen will only show useful POIs for cycling*</td>
-        <td><ul><li>Go to map setting<ul><li>Press "Hide"<ul><li>Hide POI labels</li><li>Hide POI icons</li ></ul></li></ul></li></ul> <strong>then</strong> <br><br> <ul><li>Go to map setting<ul> <li>Press "Details" <ul><li>Enable POI for Cycle Touring</li></ul></li></ul></li></ul><br> *The screen n will only display useful POIs for Cycle tourism in addition to those for cycling.*</td>
+        <td width="50%"> <ul><li>Go to map setting<ul><li>Press "Hide"<ul><li>Hide POI labels </li><li>Hide POI icons</li></ul></li></ul></li></ul> <br><br><br><br><br><em>The screen will only show useful POIs for cycling*</em></td>
+        <td><ul><li>Go to map setting<ul><li>Press "Hide"<ul><li>Hide POI labels</li><li>Hide POI icons</li ></ul></li></ul></li></ul> <strong>then</strong> <br><br> <ul><li>Go to map setting<ul> <li>Press "Details" <ul><li>Enable POI for Cycle Touring</li></ul></li></ul></li></ul><br><em>The screen n will only display useful POIs for Cycle tourism in addition to those for cycling.</em></td>
     </tr>
     <tbody>
 </table>
