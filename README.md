@@ -72,8 +72,8 @@ Applicable sur PC, Android et iOS.
     </thead>
     <tbody>
     <tr>
-        <td width="50%"> <ul><li>Aller au réglage de la carte<ul><li>Appuyez sur "Masquer"<ul><li>Masquer les libellés des POI </li><li>Masquer les icônes des POI</li></ul></li></ul></li></ul> <br><br><br><br><br><br><br><em>L'écran n'affichera que les POI utiles pour le cyclisme</em></td>
-        <td><ul><li>Aller au réglage de la carte<ul><li>Appuyez sur "Masquer"<ul><li>Masquer les libellés des POI</li><li>Masquer les icônes des POI</li></ul></li></ul></li></ul> <strong>puis</strong> <br><br> <ul><li>Aller au réglage de la carte<ul><li>Appuyez sur "Détails" <ul><li>Activer POI pour Cyclotourisme</li></ul></li></ul></li></ul><br><em>L'écran n'affichera que les POI utiles pour le Cyclotourisme en plus de ceux pour le vélo.</em></td>
+        <td width="50%"> <ul><li>Appuyez sur <code>Paramétrer la carte</code><ul><li>Appuyez sur <code>Masquer</code><ul><li>Masquer les libellés des POI </li><li>Masquer les icônes des POI</li></ul></li></ul></li></ul> <br><br><br><br><br><br><br><em>L'écran n'affichera que les POI utiles pour le cyclisme</em></td>
+        <td><ul><li>Appuyez sur <code>Paramétrer la carte</code><ul><li>Appuyez sur <code>Masquer</code><ul><li>Masquer les libellés des POI</li><li>Masquer les icônes des POI</li></ul></li></ul></li></ul> <strong>puis</strong> <br><br> <ul><li>Appuyez sur <code>Paramétrer la carte</code><ul><li>Appuyez sur <code>Détails</code> <ul><li>Activer POI pour Cyclotourisme</li></ul></li></ul></li></ul><br><em>L'écran n'affichera que les POI utiles pour le Cyclotourisme en plus de ceux pour le vélo.</em></td>
     </tr>
     <tbody>
 </table>
