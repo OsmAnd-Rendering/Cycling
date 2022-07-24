@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <renderingStyle name="CycloRoute" depends="default" defaultColor="#f1eae4" version="1">
 
 <!--Remerciements à Xandrex et à Olivier_d qui ont testé encore et encore le rendu en construction ainsi qu'à leurs propositions d'améliorations et modifications du code. Louis-->
@@ -871,7 +871,7 @@
 		<case nightMode="true" attrColorValue="#6f6f6f"/>
 		<case attrColorValue="#ececec"/>
 	</renderingAttribute>
-
+<renderingConstant name="waterTextHaloRadiusDay" value="1"/>
 	<renderingAttribute name="waterTextColor">
 		<case nightMode="true" attrColorValue="#8EAAEB"/>
 		<case attrColorValue="#FFFFFF"/>
@@ -977,8 +977,18 @@
         <case minzoom="18" textSize="18"/>
       </apply>
     </switch>
-    <case maxzoom="19" tag="landuse" value="cemetery" textColor="$black" textHaloRadius="$textHaloRadius"/>
-  
+    
+	<!-- Cycling: texts for the springs, fountain and drinking water -->
+	
+	<switch textColor="#266579" textHaloRadius="$waterTextHaloRadiusDay" textHaloColor="$waterTextHaloColor" textItalic="true">
+		<switch textSize="12">
+		<case minzoom="16" tag="natural" value="spring" textWrapWidth="20" textOrder="214"/>
+		<case minzoom="16" tag="amenity" value="drinking_water" nameTag="" textWrapWidth="20" textOrder="214"/>
+		<case minzoom="16" tag="amenity" value="fountain" nameTag="" textWrapWidth="20" textOrder="214"/>
+		<apply_if engine_v1="false" textDy="0"/>
+		</switch>
+	</switch>
+	
     <switch>
 		<case minzoom="10" tag="route" value="segment" nameTag="" textMinDistance="60" textOnPath="true" textSize="15" textColor="#0078ff" textHaloColor="#ccebf4ff" textHaloRadius="1" textOrder="2"/>
 		<case minzoom="10" tag="route" value="segment" nameTag="ref" textMinDistance="60" textOnPath="false" textSize="15" textColor="#404040" textOrder="2">
@@ -1128,8 +1138,7 @@
 				</case>
 				<case minzoom="16" tag="natural" value="arch" icon="arch" shield="arch_shield"/>
 				<switch>
-				  <case minzoom="14" tag="landuse" value="cemetery" icon="grave"/>
-					<case minzoom="15" tag="natural" value="cave_entrance" icon="natural_cave_entrance" iconOrder="85"/>
+				  	<case minzoom="15" tag="natural" value="cave_entrance" icon="natural_cave_entrance" iconOrder="85"/>
 					<case minzoom="16" tag="man_made" value="adit" icon="man_made_adit" iconOrder="60"/>
 					<case minzoom="17" tag="man_made" value="cellar_entrance" icon="cellar_entrance" iconOrder="60"/>
 					<case minzoom="15" tag="natural" value="fumarole" icon="fumarole" iconOrder="60"/>
@@ -1182,6 +1191,7 @@
 						<apply shield="white_round_shield"/>
 					</switch>
 	  			<switch POIcyclotouring="true" shield="gray_round_shield" iconVisibleSize="32" iconOrder="171">
+					<case minzoom="16" tag="landuse" value="cemetery" icon="grave"/>
 		  			<case minzoom="16" tag="amenity" value="atm" icon="amenity_atm"/>
 			  		<case minzoom="16" tag="amenity" value="payment_terminal" icon="payment_terminal"/>
 				  	<case minzoom="16" tag="amenity" value="payment_centre" icon="payment_centre"/>
@@ -1259,8 +1269,13 @@
 					</switch>
 					<switch>
 						<case tag="amenity" value="drinking_water"/>
-						<apply minzoom="15" icon="amenity_drinking_water" shield="blue_round_night_shield" iconOrder="60"/>
-						<apply_if POIcyclotouring="true" minzoom="11" icon="amenity_drinking_water" shield="blue_round_night_shield" iconOrder="60"/>
+						<apply minzoom="15" icon="amenity_drinking_water" shield="blue_round_night_shield" iconOrder="60" iconVisibleSize="24"/>
+						<apply_if POIcyclotouring="true" minzoom="11" icon="amenity_drinking_water" shield="blue_round_night_shield" iconOrder="60" iconVisibleSize="24"/>
+					</switch>
+					<switch>
+						<case tag="amenity" value="fountain"/>
+						<apply minzoom="15" icon="amenity_fountain" shield="white_round_shield" iconOrder="60"/>
+						<apply_if POIcyclotouring="true" minzoom="11" icon="amenity_fountain" shield="white_round_shield" iconOrder="60"/>
 					</switch>
 					<switch>
 						<case minzoom="14" tag="shop" value="bicycle" icon="shop_bicycle" shield="purple_round_night_shield"/>
