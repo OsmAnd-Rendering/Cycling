@@ -84,12 +84,13 @@ Click derecho o mantén presionado [este enlace](https://github.com/Hades1503/Os
                         <li>Ocultar etiquetas de PDI</li>
                     </ul>
             </ul>
-            <p><br><br><br>
+            <p><br><br><br><br>
             <em>La pantalla mostrará sólo los PDI útiles para la bici</em>          
         </td>
         <td>
             Ir a <code>configurar mapa</code><p>
             <ul>
+                <li>Activar "Rutas ciclistas"
                 <li>Pulsar "Ocultar"
                     <ul>
                         <li>Ocultar iconos de PDI</li>
