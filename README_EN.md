@@ -1,6 +1,6 @@
-# CycloRoute
+🇫🇷 [Français](README.md) 🇪🇸 [Español](README_ES.md) `🇬🇧 English`
 
-- 🇬🇧 **[English](README_EN.md)** 🇫🇷 [Français](README.md) 🇪🇸 [Español](README_ES.md)
+# CycloRoute
 
 A map style for OsmAnd, focused on the practice of cycling and cycloTouring<br><br>
 ## Notable features over standard styles:
