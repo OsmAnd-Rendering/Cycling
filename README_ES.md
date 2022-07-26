@@ -1,6 +1,6 @@
-# CycloRoute
+🇫🇷 [Français](README.md) `🇪🇸 Español` 🇬🇧 [English](README_EN.md) 
 
-- 🇪🇸 **[Español](README_ES.md)** 🇬🇧 [English](README_EN.md) 🇫🇷 [Français](README.md)
+# CycloRoute
 
 Un estilo de mapa para OsmAnd, enfocado en la práctica de la bici y del cicloturismo<br><br>
 
@@ -68,7 +68,7 @@ Click derecho o mantén presionado [este enlace](https://github.com/Hades1503/Os
 
 <table>
     <thead>
-    <tr bgcolor="#cccccc">
+    <tr>
         <th>Bici</th>
         <th>Cicloturismo</th>
     </tr>
@@ -80,29 +80,28 @@ Click derecho o mantén presionado [este enlace](https://github.com/Hades1503/Os
             <ul>
                 <li>Pulsar "Ocultar"
                     <ul>
-                        <li>Ocultar iconos de PDI</li>
-                        <li>Ocultar etiquetas de PDI</li>
+                        <li>Ocultar iconos de PDI
+                        <li>Ocultar etiquetas de PDI
                     </ul>
             </ul>
             <p><br><br><br><br>
-            <em>La pantalla mostrará sólo los PDI útiles para la bici</em>          
+            <em>La pantalla mostrará sólo los PDI útiles para la bici</em>
         </td>
         <td>
-            Ir a <code>configurar mapa</code><p>
+            Ir a <code>configurar mapa</code>
             <ul>
                 <li>Activar "Rutas ciclistas"
                 <li>Pulsar "Ocultar"
                     <ul>
-                        <li>Ocultar iconos de PDI</li>
-                        <li>Ocultar etiquetas de PDI</li>
-                    </ul><p>
+                        <li>Ocultar iconos de PDI
+                        <li>Ocultar etiquetas de PDI
+                    </ul>
                 <li>Pulsar "Detalles"
                     <ul>
                         <li>Activar POI for Cyclotouring
                     </ul>
-            </ul>
-            <p>
-            <em>La pantalla mostrará los PDI útiles para el cicloturismo</em>
+            </ul><br>
+        <em>La pantalla mostrará los PDI útiles para el cicloturismo</em>
         </td>
     </tr>
     </tbody>
