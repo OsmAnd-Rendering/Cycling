@@ -3,16 +3,28 @@ name: Producing .osf
 on: pull_request
 
 jobs:
-  creating_osf:
-    name: "Creating OSF file"
+  creatingosf:
+    name: Try
+    runs-on: ubuntu-latest
+
     steps:
+      - uses: actions/checkout@v3
+
       - name: Move files
         run: |
           mkdir BUILD && cd BUILD
           mkdir -p rendering
           cp ../CycloRoute.render.xml rendering
           cp ../export/items.json .
-       - name: Make zip
-         run: |
-           zip -r CycloRoute.osf .
+
+      - name: Make zip
+        run: |
+          cd BUILD
+          zip -r CycloRoute.osf .
+
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: CycloRoute
+          path: BUILD/CycloRoute.osf
 
