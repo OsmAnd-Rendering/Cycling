@@ -1,12 +1,10 @@
+`🇫🇷 Français` 🇪🇸 [Español](README_ES.md) 🇬🇧 [English](README_EN.md)
+
 # CycloRoute
- - 🇫🇷 **[Français](README.md)** 🇪🇸 [Español](README_ES.md) 🇬🇧 [English](README_EN.md)
 
 Un style de carte pour OsmAnd, axé sur la pratique du vélo et du cycloTourisme<br><br>
 
-## Changements notables par rapport aux styles standard :
-<br>
-
-
+## Caractéristiques du style:
 
 - Pistes cyclables plus lisibles et visibles.
 - POI utiles / intéressants mis en évidence
@@ -16,8 +14,6 @@ Un style de carte pour OsmAnd, axé sur la pratique du vélo et du cycloTourisme
 - Paramètre supplémentaire pour masquer les logos d'utilisation des terres
 - Encore plus ; )
 <br><br>
-
----
 
 ## Screenshots<br>
 ### Mode vélo
@@ -29,16 +25,10 @@ Un style de carte pour OsmAnd, axé sur la pratique du vélo et du cycloTourisme
 | :-------------: | :-------------: | :-------------: |
 <br>
 
----
-
 ## Télécharger le rendu
 Applicable sur PC, Android et iOS.
 
-- Télécharger le fichier en faisant un clic droit ou appui long sur [ce lien](https://github.com/Hades1503/OsmAnd_Cycling_Map/raw/main/CycloRoute.render.xml)
-    - Télécharger la cible du lien.<br><br>
-
----
-
+Télécharger le fichier en faisant un clic droit ou appui long sur [ce lien](https://github.com/Hades1503/OsmAnd_Cycling_Map/raw/main/CycloRoute.render.xml) → <kbd><samp>Télécharger la cible du lien</samp></kbd>.<br><br>
 
 
 ## Installer le rendu
@@ -59,7 +49,6 @@ Applicable sur PC, Android et iOS.
 
 <br>
 
----
 
 ## Configurer la carte 
 
