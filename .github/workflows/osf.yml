@@ -1,0 +1,18 @@
+name: Producing .osf
+
+on: pull_request
+
+jobs:
+  creating_osf:
+    name: "Creating OSF file"
+    steps:
+      - name: Move files
+        run: |
+          mkdir BUILD && cd BUILD
+          mkdir -p rendering
+          cp ../CycloRoute.render.xml rendering
+          cp ../export/items.json .
+       - name: Make zip
+         run: |
+           zip -r CycloRoute.osf .
+
