@@ -1,4 +1,4 @@
-🇫🇷 [Français](README.md) `🇪🇸 Español` 🇬🇧 [English](README_EN.md) 
+🇫🇷 [Français](README.md)&emsp;`🇪🇸 Español`&emsp;🇬🇧 [English](README_EN.md) 
 
 # CycloRoute
 
@@ -16,6 +16,7 @@ Un estilo de mapa para OsmAnd, enfocado en la práctica de la bici y del ciclotu
 - Y más todavía ; ) 
 <br><br>
 
+---
 ## Screenshots<br>
 ### Bici
 | <img src="Screenshots/CycloRoute_Cycling-1.png" width="90%" /> | <img src="Screenshots/CycloRoute_Cycling-2.png" width="90%" /> | <img src="Screenshots/CycloRoute_Cycling-3.png" width="90%" /> |
@@ -31,6 +32,7 @@ Un estilo de mapa para OsmAnd, enfocado en la práctica de la bici y del ciclotu
 Click derecho o mantén presionado [este enlace](https://github.com/Hades1503/OsmAnd_Cycling_Map/raw/main/CycloRoute.render.xml) → <kbd><samp>Descargar enlace</samp></kbd>.
     <br><br>
 
+---
 ## Instalar el estilo
 
 <table>
@@ -64,6 +66,7 @@ Click derecho o mantén presionado [este enlace](https://github.com/Hades1503/Os
 
 <br>
 
+---
 ## Configurar el mapa
 
 <table>
@@ -107,3 +110,4 @@ Click derecho o mantén presionado [este enlace](https://github.com/Hades1503/Os
     </tbody>
 </table>
 
+---

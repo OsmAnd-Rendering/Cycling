@@ -1,4 +1,4 @@
-🇫🇷 [Français](README.md) 🇪🇸 [Español](README_ES.md) `🇬🇧 English`
+🇫🇷 [Français](README.md)&emsp;🇪🇸 [Español](README_ES.md)&emsp;`🇬🇧 English`
 
 # CycloRoute
 
@@ -29,7 +29,7 @@ A map style for OsmAnd, focused on the practice of cycling and cycloTouring<br><
 
 ---
 
-## Download rendering
+## Download
 Applicable on PC, Android and iOS.
 
 - Download the file by right clicking or long pressing on [this link](https://github.com/Hades1503/OsmAnd_Cycling_Map/raw/main/CycloRoute.render.xml)
@@ -37,7 +37,7 @@ Applicable on PC, Android and iOS.
 
 ---
 
-## Install Render
+## Install
 <table>
     <head>
     <tr>
@@ -73,3 +73,5 @@ Applicable on PC, Android and iOS.
     </tr>
     <tbody>
 </table>
+
+---
