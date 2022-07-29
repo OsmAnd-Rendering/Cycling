@@ -2,14 +2,15 @@
 
 # CycloRoute
 
-Un style de carte pour OsmAnd, axé sur la pratique du vélo et du cycloTourisme<br><br>
+Un style de carte pour OsmAnd, axé sur la pratique du vélo et du ycloTourisme<br><br>
 
 ## Caractéristiques du style:
 
-- Pistes cyclables plus lisibles et visibles.
-- POI utiles / intéressants mis en évidence
+- Inspiré de CyclOSM
+    - Pistes cyclables plus lisibles et visibles
+    - POI utiles / intéressants mis en évidence
+    - Couleur opaque pour les itinéraires
 - Couleur des terres et utilisations de l'eau
-- Couleur opaque pour les itinéraires
 - Réglage supplémentaire pour le cyclotourisme
 - Paramètre supplémentaire pour masquer les logos d'utilisation des terres
 - Encore plus ; )
