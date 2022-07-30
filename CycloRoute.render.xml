@@ -529,11 +529,11 @@
 	<renderingConstant name="sacScaleColorT5" value="#6000ff"/>
 	<renderingConstant name="sacScaleColorT6" value="#6000ff"/>
 	
-  <renderingConstant name="cycleRoutelcnColor" value="#0000ff"/>
+  	<renderingConstant name="cycleRoutelcnColor" value="#0000ff"/>
 	<renderingConstant name="cycleRoutercnColor" value="#5500ff"/>
 	<renderingConstant name="cycleRoutencnColor" value="#aa00ff"/>
 	<renderingConstant name="cycleRouteicnColor" value="#ff00ff"/>
-  <renderingConstant name="cycleRouteMTBColor" value="#d15000"/>
+  	<renderingConstant name="cycleRouteMTBColor" value="#d15000"/>
 
 
 	<renderingConstant name="null" value="#00000000"/>
@@ -570,7 +570,7 @@
 		<case attrColorValue="#B2D486"/>
 		<!-- case attrColorValue="#9dd57c"/ was too intensive for a backgound, obscured visibility inside and the new shaders -->
 	</renderingAttribute>
-  <renderingAttribute name="landuseOrchardColor">
+  	<renderingAttribute name="landuseOrchardColor">
 		<case nightMode="true" attrColorValue="$woodColor"/>
 		<case moreDetailed="true" attrColorValue="#dbe7c5"/>
 		<case attrColorValue="#dbe7c5"/>
@@ -589,7 +589,7 @@
 		<case nightMode="true" attrColorValue="$openNatureColorNight"/>
 		<case attrColorValue="#C2E795" shader=""/>
 	</renderingAttribute>
-  <renderingAttribute name="moreDetailedScrubColor">
+  	<renderingAttribute name="moreDetailedScrubColor">
 		<case attrColorValue="#C2E795" shader=""/>
 	</renderingAttribute>
 	<renderingAttribute name="meadowColor">
@@ -871,7 +871,7 @@
 		<case nightMode="true" attrColorValue="#6f6f6f"/>
 		<case attrColorValue="#ececec"/>
 	</renderingAttribute>
-<renderingConstant name="waterTextHaloRadiusDay" value="1"/>
+	<renderingConstant name="waterTextHaloRadiusDay" value="1"/>
 	<renderingAttribute name="waterTextColor">
 		<case nightMode="true" attrColorValue="#8EAAEB"/>
 		<case attrColorValue="#FFFFFF"/>
