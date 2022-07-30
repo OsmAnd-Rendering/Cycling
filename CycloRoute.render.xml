@@ -1402,6 +1402,12 @@
       </apply_if>
     </switch>
       <switch noPolygons="false">
+		<case minzoom="13" tag="natural" value="bare_rock" shader="topo_bare_rock_night" color="#99100000">
+			<case nightMode="true" shader="" color="#55555555"/>
+		</case>
+		<case minzoom="13" tag="natural" value="scree" shader="topo_bare_rock2" color="#99100000">
+			<case nightMode="true" shader="" color="#55555555"/>
+		</case>
       <case minzoom="10" tag="natural" value="scrub">
         <apply_if maxzoom="22" color="$scrubColor"/>
         <apply_if hidelanduseshader="false" minzoom="15" color_0="$scrubColor" shader="topo_scrub"/>
