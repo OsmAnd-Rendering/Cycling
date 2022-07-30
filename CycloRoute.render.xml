@@ -313,8 +313,8 @@
 	</renderingAttribute>
 	<!-- Primary  -->
 	<renderingAttribute name="primaryRoadColor">
-		<case baseAppMode="bicycle" additional="cyclestreet=yes" attrColorValue="#0060ff"/>
-		<case baseAppMode="bicycle" additional="bicycle_road=yes" attrColorValue="#0060ff"/>
+		<case additional="cyclestreet=yes" attrColorValue="#0060ff"/>
+		<case additional="bicycle_road=yes" attrColorValue="#0060ff"/>
 		<case roadStyle="germanRoadAtlas" attrColorValue="#ff80a0">
 			<apply_if additional="tunnel=yes" attrColorValue="#FFD6E0"/>
 			<apply_if additional="covered=yes" attrColorValue="#FFD6E0"/>
@@ -359,8 +359,8 @@
 	</renderingAttribute>
 	<!-- Secondary  -->
 	<renderingAttribute name="secondaryRoadColor">
-		<case baseAppMode="bicycle" additional="cyclestreet=yes" attrColorValue="#0060ff"/>
-		<case baseAppMode="bicycle" additional="bicycle_road=yes" attrColorValue="#0060ff"/>
+		<case additional="cyclestreet=yes" attrColorValue="#0060ff"/>
+		<case additional="bicycle_road=yes" attrColorValue="#0060ff"/>
 		<case roadStyle="germanRoadAtlas" attrColorValue="#ffd080">
 			<apply_if additional="tunnel=yes" attrColorValue="#FFEAC7"/>
 			<apply_if additional="covered=yes" attrColorValue="#FFEAC7"/>
@@ -397,8 +397,8 @@
 	</renderingAttribute>
   <!-- Tertiary  -->
 	<renderingAttribute name="tertiaryRoadColor">
-		<case baseAppMode="bicycle" additional="cyclestreet=yes" attrColorValue="#0060ff"/>
-		<case baseAppMode="bicycle" additional="bicycle_road=yes" attrColorValue="#0060ff"/>
+		<case additional="cyclestreet=yes" attrColorValue="#0060ff"/>
+		<case additional="bicycle_road=yes" attrColorValue="#0060ff"/>
 		<case roadStyle="germanRoadAtlas" attrColorValue="#ffff80">
 			<apply_if additional="tunnel=yes" attrColorValue="#FFFFD1"/>
 			<apply_if additional="covered=yes" attrColorValue="#FFFFD1"/>
@@ -437,8 +437,8 @@
 	</renderingAttribute>
 	<!-- Residential  -->
 	<renderingAttribute name="residentialRoadColor">
-		<case baseAppMode="bicycle" additional="cyclestreet=yes" attrColorValue="#0060ff"/>
-		<case baseAppMode="bicycle" additional="bicycle_road=yes" attrColorValue="#0060ff"/>
+		<case additional="cyclestreet=yes" attrColorValue="#0060ff"/>
+		<case additional="bicycle_road=yes" attrColorValue="#0060ff"/>
 		<case roadStyle="highContrastRoads" attrColorValue="#ffe778">
 			<apply_if additional="tunnel=yes" attrColorValue="#FFF4C4"/>
 			<apply_if additional="covered=yes" attrColorValue="#FFF4C4"/>
@@ -462,8 +462,8 @@
 	</renderingAttribute>
 	<!-- Service  -->
 	<renderingAttribute name="serviceRoadColor">
-		<case baseAppMode="bicycle" additional="cyclestreet=yes" attrColorValue="#0060ff"/>
-		<case baseAppMode="bicycle" additional="bicycle_road=yes" attrColorValue="#0060ff"/>
+		<case additional="cyclestreet=yes" attrColorValue="#0060ff"/>
+		<case additional="bicycle_road=yes" attrColorValue="#0060ff"/>
 		<case roadStyle="highContrastRoads" attrColorValue="#fff3ba">
 			<apply_if additional="tunnel=yes" attrColorValue="#FFF8D9"/>
 			<apply_if additional="covered=yes" attrColorValue="#FFF8D9"/>
@@ -493,8 +493,8 @@
 		</case>
 	</renderingAttribute>
 	<renderingAttribute name="unclassifiedRoadColor">
-		<case baseAppMode="bicycle" additional="cyclestreet=yes" attrColorValue="#0060ff"/>
-		<case baseAppMode="bicycle" additional="bicycle_road=yes" attrColorValue="#0060ff"/>
+		<case additional="cyclestreet=yes" attrColorValue="#0060ff"/>
+		<case additional="bicycle_road=yes" attrColorValue="#0060ff"/>
 		<!--<case surfaceIntegrity="true" minzoom="12" attrColorValue="$highwaySurfaceIntegrityColor"/>-->
 		<case attrColorValue="#ffffff">
 			<apply_if additional="tunnel=yes" attrColorValue="#FFEFDB"/>
@@ -1577,7 +1577,7 @@
           <filter minzoom="12" maxzoom="13" pathEffect_5="3_1"/>
           <filter minzoom="14" pathEffect_5="12_2"/>
 					<groupFilter>
-						<filter baseAppMode="bicycle">
+						<filter>
 							<filter minzoom="13" maxzoom="13" strokeWidth_5="0.7" strokeWidth_4="1"/>
 							<filter minzoom="14" maxzoom="14" strokeWidth_5="1" strokeWidth_4="1.2"/>
 							<filter minzoom="15" maxzoom="15" strokeWidth_5="1.5" strokeWidth_4="1.8"/>
@@ -1600,7 +1600,7 @@
 					<filter minzoom="17" strokeWidth_5="2" strokeWidth_4="3"/>
           <apply_if nightMode="true" color_5="$pathColorNight"/>
 				</groupFilter>
-				<groupFilter baseAppMode="bicycle" minzoom="13" additional="bicycle=designated" color_5="#0060ff">
+				<groupFilter minzoom="13" additional="bicycle=designated" color_5="#0060ff">
 					<filter minzoom="14" maxzoom="14" strokeWidth_5="1.5" pathEffect_5="" cap_5="ROUND"/>
 					<filter minzoom="15" maxzoom="15" strokeWidth_5="2.5" pathEffect_5="" cap_5="ROUND"/>
 					<filter minzoom="16" maxzoom="16" strokeWidth_5="3" pathEffect_5="" cap_5="ROUND"/>
@@ -1622,7 +1622,7 @@
 			<group>
 				<filter tag="highway" value="cycleway" strokeWidth="0.5"/>
 				<groupFilter color_5="$cyclewayColorDay" pathEffect_5="" color="$null" cap_5="ROUND">
-					<filter baseAppMode="bicycle" minzoom="10" maxzoom="12" strokeWidth_5="0.5"/>
+					<filter minzoom="10" maxzoom="12" strokeWidth_5="0.5"/>
 <!--					<filter minzoom="12" maxzoom="12" strokeWidth_5="1"/>-->
 					<filter minzoom="13" maxzoom="13" strokeWidth_5="1.5"/>
 					<filter minzoom="14" maxzoom="15" strokeWidth_5="2.5"/>
@@ -1709,7 +1709,7 @@
       <apply minzoom="18" strokeWidth="5" cap="ROUND"/>
 			<apply color="$cyclewayColorDay"/>
     </switch>
-		<switch engine_v1="false" baseAppMode="bicycle" minzoom="13">
+		<switch engine_v1="false" minzoom="13">
 			<case tag="osmand_cycleway_trunk_left" value="true">
 				<apply_if maxzoom="14" hmargin="4"/>
 				<apply_if minzoom="15" maxzoom="15" hmargin="5.5"/>
@@ -1813,7 +1813,7 @@
 		</case>
 		<!-- cycle routes -->
     <group>
-      <filter baseAppMode="bicycle" showMtbRoutes="true" tag="route_mtb" value="" color="$cycleRouteMTBColor"/>
+      <filter showMtbRoutes="true" tag="route_mtb" value="" color="$cycleRouteMTBColor"/>
 			<groupFilter cap="BUTT">
 				<filter minzoom="5" maxzoom="11" strokeWidth="1"/>
 				<filter minzoom="12" maxzoom="12" strokeWidth="2"/>
