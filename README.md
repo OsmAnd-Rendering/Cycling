@@ -2,7 +2,7 @@
 
 # CycloRoute
 
-Un style de carte pour OsmAnd, axé sur la pratique du vélo et du ycloTourisme<br><br>
+Un style de carte pour OsmAnd, axé sur la pratique du vélo et du cycloTourisme<br><br>
 
 ## Caractéristiques du style:
 
