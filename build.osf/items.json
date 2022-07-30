@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "type": "FILE",
+      "file": "\/rendering\/CycloRoute.render.xml",
+      "subtype": "rendering_style"
+    },
+    {
+      "type": "PROFILE",
+      "file": "profile_bicycle.json",
+      "appMode": {
+        "iconColor": "BLUE",
+        "iconName": "ic_action_bicycle_dark",
+        "locIcon": "BICYCLE",
+        "navIcon": "DEFAULT",
+        "order": 2,
+        "routeService": "OSMAND",
+        "routingProfile": "bicycle",
+        "stringKey": "bicycle",
+        "userProfileName": "CycloRoute",
+        "version": 0
+      }
+    }
+  ]
+}
