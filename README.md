@@ -36,7 +36,7 @@ Un style de carte pour OsmAnd, axé sur la pratique du vélo et du ycloTourisme<
 ## Téléchargement
 Applicable sur PC, Android et iOS.
 
-Télécharger le fichier en faisant un clic droit ou appui long sur [ce lien](https://github.com/Hades1503/OsmAnd_Cycling_Map/raw/main/CycloRoute.render.xml) → <kbd><samp>Télécharger la cible du lien</samp></kbd>.<br><br>
+Télécharger le fichier en faisant un clic droit ou appui long sur [ce lien](https://github.com/OsmAnd-Rendering/Cycling/raw/main/CycloRoute.osf) → <kbd><samp>Télécharger la cible du lien</samp></kbd>.<br><br>
 
 ---
 ## Installation
