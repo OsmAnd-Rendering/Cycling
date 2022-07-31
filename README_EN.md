@@ -6,13 +6,19 @@ A map style for OsmAnd, focused on the practice of cycling and cycloTouring<br><
 ## Notable features over standard styles:
 <br>
 
-- More readable and visible cycle paths.
-- Useful/interesting POIs highlighted
-- Color of land and water uses
-- Opaque color for routes
-- Additional setting for cyclotouring
-- Additional setting to hide land use logos
-- Even more ;)
+- Inspired by CyclOSM:
+
+     - More legible and visible cycle paths
+     - Highlighted useful/interesting POIs
+     - Opaque color for routes<br><br>
+
+- Inspired by Mapy.cz:
+     - Land and Water Color<br><br>
+
+- Additional setting:
+     - POI for cycle tourism
+     - To hide land use logos<br><br>
+- Even more ; )
 <br><br>
 
 ---

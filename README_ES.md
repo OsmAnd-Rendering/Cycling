@@ -7,13 +7,19 @@ Un estilo de mapa para OsmAnd, enfocado en la práctica de la bici y del ciclotu
 ## Características del estilo
 <br>
 
-- Carriles y rutas para bici más legibles y visibles.
-- PDI útiles/interesantes resaltados
-- Color del suelo y usos del agua
-- Color opaco para las rutas
-- Ajuste adicional para el cicloturismo
-- Ajuste adicional para ocultar los símbolos de los usos del suelo
-- Y más todavía ; ) 
+- Inspirado en CyclOSM:
+
+     - Carriles bici más legibles y visibles
+     - Puntos de interés útiles/interesantes resaltados
+     - Color opaco para rutas<br><br>
+
+- Inspirado en Mapy.cz:
+     - Color tierra y agua<br><br>
+
+- Configuración adicional:
+     - PDI para cicloturismo
+     - Para ocultar logos de uso de suelo<br><br>
+- Todavía más ; )
 <br><br>
 
 ---

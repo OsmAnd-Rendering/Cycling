@@ -5,6 +5,7 @@
 Un style de carte pour OsmAnd, axé sur la pratique du vélo et du cycloTourisme<br><br>
 
 ## Caractéristiques du style:
+<br>
 
 - Inspiré de CyclOSM : 
 
