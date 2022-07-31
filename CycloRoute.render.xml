@@ -610,11 +610,11 @@
 	</renderingAttribute>
 	<renderingAttribute name="greenfieldColor">
 		<case nightMode="true" attrColorValue="$openNatureColorNight"/>
-		<case attrColorValue="#a5a574"/>
+		<case attrColorValue="#ebebbc"/>
 	</renderingAttribute>
 	<renderingAttribute name="brownfieldColor">
 		<case nightMode="true" attrColorValue="$openNatureColorNight"/>
-		<case attrColorValue="#a5a574"/>
+		<case attrColorValue="#ebebbc"/>
 	</renderingAttribute>
 	<renderingAttribute name="farmColor">
 		<case nightMode="true" attrColorValue="$openNatureColorNight"/>
@@ -1263,9 +1263,13 @@
 						<case POIcyclotouring="true" minzoom="14" tag="man_made" value="water_well" icon="man_made_water_well" shield="blue_round_shield"/>
 				  	<case minzoom="12" tag="amenity" value="toilets" icon="amenity_toilets" shield="orange_round_night_shield"/>
 					  <case POIcyclotouring="true" minzoom="14" tag="amenity" value="shower" icon="shower" shield="blue_round_shield"/>
-						<case POIcyclotouring="true" minzoom="14" tag="natural" value="spring" icon="natural_spring" shield="blue_round_shield"/>
 						<apply_if minzoom="12" additional="drinking_water=yes" icon_2="drinking_water_yes_map"/>
 						<apply_if nightMode="true" shield="blue_round_night_shield"/>
+					</switch>
+					<switch>
+						<case tag="natural" value="spring"/>
+						<apply minzoom="15" icon="natural_spring" shield="blue_round_night_shield" iconOrder="60" iconVisibleSize="24"/>
+						<apply_if POIcyclotouring="true" minzoom="11" icon="natural_spring" shield="blue_round_night_shield" iconOrder="60" iconVisibleSize="24"/>
 					</switch>
 					<switch>
 						<case tag="amenity" value="drinking_water"/>
