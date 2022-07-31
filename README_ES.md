@@ -29,7 +29,7 @@ Un estilo de mapa para OsmAnd, enfocado en la práctica de la bici y del ciclotu
 
 ## Descargar el estilo
 
-Click derecho o mantén presionado [este enlace](https://github.com/Hades1503/OsmAnd_Cycling_Map/raw/main/CycloRoute.render.xml) → <kbd><samp>Descargar enlace</samp></kbd>.
+Click derecho o mantén presionado [este enlace](https://raw.githubusercontent.com/OsmAnd-Rendering/Cycling/main/CycloRoute.render.xml) → <kbd><samp>Descargar enlace</samp></kbd>.
     <br><br>
 
 ---
