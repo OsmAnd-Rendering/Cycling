@@ -32,7 +32,7 @@ A map style for OsmAnd, focused on the practice of cycling and cycloTouring<br><
 ## Download
 Applicable on PC, Android and iOS.
 
-- Download the file by right clicking or long pressing on [this link](https://github.com/Hades1503/OsmAnd_Cycling_Map/raw/main/CycloRoute.render.xml)
+- Download the file by right clicking or long pressing on [this link](https://raw.githubusercontent.com/OsmAnd-Rendering/Cycling/main/CycloRoute.render.xml)
     - Download link target.<br><br>
 
 ---
