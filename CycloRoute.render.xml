@@ -1149,184 +1149,184 @@
 						<apply_if nightMode="true" shield="gray_round_night_shield"/>
 					</apply>
 				</switch>
-					<switch POIcyclotouring="true" minzoom="15">
-          <switch POIcyclotouring="true" tag="amenity" value="place_of_worship" icon="amenity_place_of_worship" iconVisibleSize="11" intersectionSizeFactor="0.8">
-            <case minzoom="16" moreDetailed="true" iconOrder="43" iconVisibleSize="9" intersectionSizeFactor="0.7"/>
-            <case minzoom="16" moreDetailed="false" additional="wiki=yes" iconOrder="43" iconVisibleSize="9" intersectionSizeFactor="0.7"/>
-            <case minzoom="16" iconOrder="132"/>
-            <apply>
-              <case additional="religion=christian" icon="religion_christian" shield="white_round_shield"/>
-              <case additional="religion=jewish" icon="religion_jewish" shield="white_round_shield"/>
-              <case additional="religion=muslim" icon="religion_muslim" shield="white_round_shield"/>
-              <case additional="religion=sikh" icon="religion_sikh" shield="white_round_shield"/>
-              <case additional="religion=buddhist" icon="religion_buddhist" shield="white_round_shield"/>
-              <case additional="religion=hindu" icon="religion_hindu" shield="white_round_shield"/>
-              <case additional="religion=shinto" icon="religion_shinto" shield="white_round_shield"/>
-              <case additional="religion=taoist" icon="religion_taoist" shield="white_round_shield"/>
-            </apply>
-            <apply_if nightMode="true" shield="lightgray_round_night_shield" iconVisibleSize="30"/>
-          </switch>
-			  	  <case tag="tourism" value="camp_pitch" icon="topo_camp_pitch"/>
-				    <case tag="tourism" value="caravan_site" icon="topo_caravan_site"/>
-	    			<case tag="tourism" value="chalet" icon="topo_chalet"/>
-			    	<case tag="tourism" value="alpine_hut" icon="topo_alpine_hut"/>
-			    	<case tag="tourism" value="cabin" icon="topo_cabin"/>
-			    	<case tag="tourism" value="lean_to" icon="topo_lean_to"/>
-		    		<case tag="tourism" value="wilderness_hut" icon="topo_wilderness_hut"/>
-		    		<case tag="amenity" value="shelter" icon="topo_shelter"/>
-	  		    <case tag="tourism" value="apartment" icon="topo_apartment"/>
-		    	  <case tag="tourism" value="guest_house" icon="topo_guest_house"/>
-			      <case tag="tourism" value="hostel" icon="topo_hostel"/>
-			      <case tag="tourism" value="hotel" icon="topo_hotel"/>
-			      <case tag="tourism" value="motel" icon="topo_motel"/>
-			      <case minzoom="16" tag="highway" value="trailhead" icon="topo_trailhead"/>
-            <case minzoom="16" tag="tourism" value="information" icon="tourism_information" iconOrder="30">
-              <case additional="information=office" icon="information_office"/>
-              <case additional="information=audioguide" icon="information_audioguide"/>
-              <case additional="information=board" icon="information_board"/>
-              <case additional="information=guidepost" icon="information_guidepost"/>
-              <case additional="information=map" icon="information_map"/>
-              <case additional="information=terminal" icon="information_terminal"/>
-            </case>
-						<apply shield="white_round_shield"/>
-					</switch>
+				<switch POIcyclotouring="true" minzoom="15">
+				<switch POIcyclotouring="true" tag="amenity" value="place_of_worship" icon="amenity_place_of_worship" iconVisibleSize="11" intersectionSizeFactor="0.8">
+					<case minzoom="16" moreDetailed="true" iconOrder="43" iconVisibleSize="9" intersectionSizeFactor="0.7"/>
+					<case minzoom="16" moreDetailed="false" additional="wiki=yes" iconOrder="43" iconVisibleSize="9" intersectionSizeFactor="0.7"/>
+					<case minzoom="16" iconOrder="132"/>
+					<apply>
+					<case additional="religion=christian" icon="religion_christian" shield="white_round_shield"/>
+					<case additional="religion=jewish" icon="religion_jewish" shield="white_round_shield"/>
+					<case additional="religion=muslim" icon="religion_muslim" shield="white_round_shield"/>
+					<case additional="religion=sikh" icon="religion_sikh" shield="white_round_shield"/>
+					<case additional="religion=buddhist" icon="religion_buddhist" shield="white_round_shield"/>
+					<case additional="religion=hindu" icon="religion_hindu" shield="white_round_shield"/>
+					<case additional="religion=shinto" icon="religion_shinto" shield="white_round_shield"/>
+					<case additional="religion=taoist" icon="religion_taoist" shield="white_round_shield"/>
+					</apply>
+					<apply_if nightMode="true" shield="lightgray_round_night_shield" iconVisibleSize="30"/>
+				</switch>
+				<case tag="tourism" value="camp_pitch" icon="topo_camp_pitch"/>
+				<case tag="tourism" value="caravan_site" icon="topo_caravan_site"/>
+				<case tag="tourism" value="chalet" icon="topo_chalet"/>
+				<case tag="tourism" value="alpine_hut" icon="topo_alpine_hut"/>
+				<case tag="tourism" value="cabin" icon="topo_cabin"/>
+				<case tag="tourism" value="lean_to" icon="topo_lean_to"/>
+				<case tag="tourism" value="wilderness_hut" icon="topo_wilderness_hut"/>
+				<case tag="amenity" value="shelter" icon="topo_shelter"/>
+				<case tag="tourism" value="apartment" icon="topo_apartment"/>
+				<case tag="tourism" value="guest_house" icon="topo_guest_house"/>
+				<case tag="tourism" value="hostel" icon="topo_hostel"/>
+				<case tag="tourism" value="hotel" icon="topo_hotel"/>
+				<case tag="tourism" value="motel" icon="topo_motel"/>
+				<case minzoom="16" tag="highway" value="trailhead" icon="topo_trailhead"/>
+				<case minzoom="16" tag="tourism" value="information" icon="tourism_information" iconOrder="30">
+					<case additional="information=office" icon="information_office"/>
+					<case additional="information=audioguide" icon="information_audioguide"/>
+					<case additional="information=board" icon="information_board"/>
+					<case additional="information=guidepost" icon="information_guidepost"/>
+					<case additional="information=map" icon="information_map"/>
+					<case additional="information=terminal" icon="information_terminal"/>
+				</case>
+				<apply shield="white_round_shield"/>
+				</switch>
 	  			<switch POIcyclotouring="true" shield="gray_round_shield" iconVisibleSize="32" iconOrder="171">
 					<case minzoom="16" tag="landuse" value="cemetery" icon="grave"/>
 		  			<case minzoom="16" tag="amenity" value="atm" icon="amenity_atm"/>
 			  		<case minzoom="16" tag="amenity" value="payment_terminal" icon="payment_terminal"/>
 				  	<case minzoom="16" tag="amenity" value="payment_centre" icon="payment_centre"/>
-					  <case minzoom="16" tag="amenity" value="money_transfer" icon="money_transfer"/>
+					<case minzoom="16" tag="amenity" value="money_transfer" icon="money_transfer"/>
   					<case minzoom="16" tag="shop" value="money_lender" icon="money_lender"/>
 	  				<case minzoom="16" tag="amenity" value="bank" icon="amenity_bank"/>
 		  			<case minzoom="16" tag="amenity" value="bureau_de_change" icon="amenity_bureau_de_change"/>
 			  		<case minzoom="16" tag="amenity" value="mobile_money_agent" icon="mobile_money_agent"/>
 				  	<case minzoom="16" tag="amenity" value="ticket_validator" icon="ticket_validator" iconOrder="150"/>
-					  <apply_if nightMode="true" shield="gray_round_night_shield" iconVisibleSize="44"/>
+					<apply_if nightMode="true" shield="gray_round_night_shield" iconVisibleSize="44"/>
   				</switch>
-					<switch POIcyclotouring="true">
-						<case tag="tourism" value="camp_site"/>
-						<apply minzoom="15" icon="topo_camp_site" shield="white_round_shield"/>
-						<apply_if POIcyclotouring="true" minzoom="11" icon="topo_camp_site" shield="white_round_shield"/>
-					</switch>
-					<switch>
-						<case minzoom="16" tag="barrier" value="gate" icon="barrier_gate" shield="barrier_gate_shield"/>
-						<case minzoom="16" tag="barrier" value="yes" icon="barrier_gate" shield="barrier_gate_shield"/>
-						<case minzoom="16" tag="barrier" value="lift_gate" icon="barrier_lift_gate" shield="barrier_lift_gate_shield"/>
-						<case minzoom="16" tag="barrier" value="hampshire_gate" icon="barrier_hampshire_gate" shield="barrier_hampshire_gate_shield"/>
-						<case minzoom="16" tag="barrier" value="swing_gate" icon="barrier_swing_gate" shield="barrier_swing_gate_shield"/>
-						<case minzoom="16" tag="barrier" value="bump_gate" icon="barrier_bump_gate" shield="barrier_bump_gate_shield"/>
-						<case minzoom="16" tag="barrier" value="bus_trap" icon="barrier_bus_trap" shield="barrier_bus_trap_shield"/>
-						<case minzoom="18" tag="barrier" value="cattle_grid" icon="barrier_cattle_grid" shield="barrier_cattle_grid_shield"/>
-						<case minzoom="16" tag="barrier" value="chain" icon="barrier_chain" shield="barrier_chain_shield"/>
-						<case minzoom="16" tag="barrier" value="height_restrictor" icon="barrier_height_restrictor" shield="barrier_height_restrictor_shield"/>
-						<case minzoom="16" tag="barrier" value="cycle_barrier" icon="barrier_cycle_barrier" shield="barrier_cycle_barrier_shield"/>
-						<case minzoom="16" tag="barrier" value="motorcycle_barrier" icon="barrier_motorcycle_barrier" shield="barrier_motorcycle_barrier_shield"/>
-						<case minzoom="16" tag="barrier" value="turnstile" icon="barrier_turnstile" shield="barrier_turnstile_shield" iconOrder="128"/>
-						<case minzoom="16" tag="barrier" value="full-height_turnstile" icon="barrier_turnstile" shield="barrier_turnstile_shield" iconOrder="128"/>
-						<case minzoom="16" tag="barrier" value="stile" icon="barrier_stile" shield="barrier_stile_shield"/>
-						<case minzoom="16" tag="barrier" value="sally_port" icon="barrier_sally_port" shield="barrier_sally_port_shield"/>
-						<case minzoom="16" tag="barrier" value="kissing_gate" icon="barrier_kissing_gate" shield="barrier_kissing_gate_shield"/>
-						<case minzoom="16" tag="barrier" value="sliding_gate" icon="barrier_gate" shield="barrier_gate_shield"/>
-						<case minzoom="16" tag="barrier" value="horse_stile" icon="barrier_colored_horse_stile" shield="barrier_horse_stile_shield"/>
-						<case minzoom="16" tag="barrier" value="entrance" icon="barrier_entrance" shield="barrier_entrance_shield"/>
-						<apply_if moreDetailed="true" minzoom="16" maxzoom="16" icon="barrier_small_black_2" shield="" iconVisibleSize="0">
-							<apply_if nightMode="true" icon="barrier_small_white_2"/>
-						</apply_if>
-						<apply_if moreDetailed="false" minzoom="16" maxzoom="17" icon="barrier_small_black_2" shield="" iconVisibleSize="0">
-							<apply_if nightMode="true" icon="barrier_small_white_2"/>
-						</apply_if>
-					</switch>
-					<switch >
-						<case minzoom="16" tag="amenity" value="bicycle_rental" icon="amenity_bicycle_rental" iconOrder="90" shield="blue_round_small_shield"/>
-						<case minzoom="16" tag="amenity" value="bicycle_parking" icon="osmc_blue_dot" iconOrder="90">
-							<case additional="bicycle_parking=stands"/>
-							<case additional="bicycle_parking=wall_loops"/>
-							<case additional="bicycle_parking=rack"/>
-							<case additional="bicycle_parking=anchors"/>
-							<case additional="bicycle_parking=building"/>
-							<case additional="bicycle_parking=shed"/>
-							<case additional="bicycle_parking=bollard"/>
-							<case additional="bicycle_parking=informal"/>
-							<case additional="bicycle_parking=lockers"/>
-							<case additional="bicycle_parking=tree"/>
-							<case additional="bicycle_parking=streetpod"/>
-						</case>
+				<switch POIcyclotouring="true">
+					<case tag="tourism" value="camp_site"/>
+					<apply minzoom="15" icon="topo_camp_site" shield="white_round_shield"/>
+					<apply_if POIcyclotouring="true" minzoom="11" icon="topo_camp_site" shield="white_round_shield"/>
+				</switch>
+				<switch>
+					<case minzoom="16" tag="barrier" value="gate" icon="barrier_gate" shield="barrier_gate_shield"/>
+					<case minzoom="16" tag="barrier" value="yes" icon="barrier_gate" shield="barrier_gate_shield"/>
+					<case minzoom="16" tag="barrier" value="lift_gate" icon="barrier_lift_gate" shield="barrier_lift_gate_shield"/>
+					<case minzoom="16" tag="barrier" value="hampshire_gate" icon="barrier_hampshire_gate" shield="barrier_hampshire_gate_shield"/>
+					<case minzoom="16" tag="barrier" value="swing_gate" icon="barrier_swing_gate" shield="barrier_swing_gate_shield"/>
+					<case minzoom="16" tag="barrier" value="bump_gate" icon="barrier_bump_gate" shield="barrier_bump_gate_shield"/>
+					<case minzoom="16" tag="barrier" value="bus_trap" icon="barrier_bus_trap" shield="barrier_bus_trap_shield"/>
+					<case minzoom="18" tag="barrier" value="cattle_grid" icon="barrier_cattle_grid" shield="barrier_cattle_grid_shield"/>
+					<case minzoom="16" tag="barrier" value="chain" icon="barrier_chain" shield="barrier_chain_shield"/>
+					<case minzoom="16" tag="barrier" value="height_restrictor" icon="barrier_height_restrictor" shield="barrier_height_restrictor_shield"/>
+					<case minzoom="16" tag="barrier" value="cycle_barrier" icon="barrier_cycle_barrier" shield="barrier_cycle_barrier_shield"/>
+					<case minzoom="16" tag="barrier" value="motorcycle_barrier" icon="barrier_motorcycle_barrier" shield="barrier_motorcycle_barrier_shield"/>
+					<case minzoom="16" tag="barrier" value="turnstile" icon="barrier_turnstile" shield="barrier_turnstile_shield" iconOrder="128"/>
+					<case minzoom="16" tag="barrier" value="full-height_turnstile" icon="barrier_turnstile" shield="barrier_turnstile_shield" iconOrder="128"/>
+					<case minzoom="16" tag="barrier" value="stile" icon="barrier_stile" shield="barrier_stile_shield"/>
+					<case minzoom="16" tag="barrier" value="sally_port" icon="barrier_sally_port" shield="barrier_sally_port_shield"/>
+					<case minzoom="16" tag="barrier" value="kissing_gate" icon="barrier_kissing_gate" shield="barrier_kissing_gate_shield"/>
+					<case minzoom="16" tag="barrier" value="sliding_gate" icon="barrier_gate" shield="barrier_gate_shield"/>
+					<case minzoom="16" tag="barrier" value="horse_stile" icon="barrier_colored_horse_stile" shield="barrier_horse_stile_shield"/>
+					<case minzoom="16" tag="barrier" value="entrance" icon="barrier_entrance" shield="barrier_entrance_shield"/>
+					<apply_if moreDetailed="true" minzoom="16" maxzoom="16" icon="barrier_small_black_2" shield="" iconVisibleSize="0">
+						<apply_if nightMode="true" icon="barrier_small_white_2"/>
+					</apply_if>
+					<apply_if moreDetailed="false" minzoom="16" maxzoom="17" icon="barrier_small_black_2" shield="" iconVisibleSize="0">
+						<apply_if nightMode="true" icon="barrier_small_white_2"/>
+					</apply_if>
+				</switch>
+				<switch >
+					<case minzoom="16" tag="amenity" value="bicycle_rental" icon="amenity_bicycle_rental" iconOrder="90" shield="blue_round_small_shield"/>
+					<case minzoom="16" tag="amenity" value="bicycle_parking" icon="osmc_blue_dot" iconOrder="90">
+						<case additional="bicycle_parking=stands"/>
+						<case additional="bicycle_parking=wall_loops"/>
+						<case additional="bicycle_parking=rack"/>
+						<case additional="bicycle_parking=anchors"/>
+						<case additional="bicycle_parking=building"/>
+						<case additional="bicycle_parking=shed"/>
+						<case additional="bicycle_parking=bollard"/>
+						<case additional="bicycle_parking=informal"/>
+						<case additional="bicycle_parking=lockers"/>
+						<case additional="bicycle_parking=tree"/>
+						<case additional="bicycle_parking=streetpod"/>
+					</case>
 						<!--<apply_if nightMode="true" shield="blue_round_night_shield"/>-->
-					</switch>
-          <switch POIcyclotouring="true" minzoom="12" iconOrder="70">
-            <case tag="shop" value="medical_supply" icon="medical_supply" iconOrder="53"/>
-            <case tag="amenity" value="pharmacy" icon="amenity_pharmacy" iconOrder="54"/>
-            <case tag="emergency" value="defibrillator" icon="defibrillator"/>
-            <apply shield="green_round_shield"/>
-          </switch>
-					<switch>
-						<case POIcyclotouring="true" minzoom="14" tag="man_made" value="water_well" icon="man_made_water_well" shield="blue_round_shield"/>
+				</switch>
+				<switch POIcyclotouring="true" minzoom="12" iconOrder="70">
+					<case tag="shop" value="medical_supply" icon="medical_supply" iconOrder="53"/>
+					<case tag="amenity" value="pharmacy" icon="amenity_pharmacy" iconOrder="54"/>
+					<case tag="emergency" value="defibrillator" icon="defibrillator"/>
+					<apply shield="green_round_shield"/>
+				</switch>
+				<switch>
+					<case POIcyclotouring="true" minzoom="14" tag="man_made" value="water_well" icon="man_made_water_well" shield="blue_round_shield"/>
 				  	<case minzoom="12" tag="amenity" value="toilets" icon="amenity_toilets" shield="orange_round_night_shield"/>
-					  <case POIcyclotouring="true" minzoom="14" tag="amenity" value="shower" icon="shower" shield="blue_round_shield"/>
-						<apply_if minzoom="12" additional="drinking_water=yes" icon_2="drinking_water_yes_map"/>
-						<apply_if nightMode="true" shield="blue_round_night_shield"/>
-					</switch>
-					<switch>
-						<case tag="natural" value="spring"/>
-						<apply minzoom="15" icon="natural_spring" shield="blue_round_night_shield" iconOrder="60" iconVisibleSize="24"/>
-						<apply_if POIcyclotouring="true" minzoom="11" icon="natural_spring" shield="blue_round_night_shield" iconOrder="60" iconVisibleSize="24"/>
-					</switch>
-					<switch>
-						<case tag="amenity" value="drinking_water"/>
-						<apply minzoom="15" icon="amenity_drinking_water" shield="blue_round_night_shield" iconOrder="60" iconVisibleSize="24"/>
-						<apply_if POIcyclotouring="true" minzoom="11" icon="amenity_drinking_water" shield="blue_round_night_shield" iconOrder="60" iconVisibleSize="24"/>
-					</switch>
-					<switch>
-						<case tag="amenity" value="fountain"/>
-						<apply minzoom="15" icon="amenity_fountain" shield="white_round_shield" iconOrder="60"/>
-						<apply_if POIcyclotouring="true" minzoom="11" icon="amenity_fountain" shield="white_round_shield" iconOrder="60"/>
-					</switch>
-					<switch>
-						<case minzoom="14" tag="shop" value="bicycle" icon="shop_bicycle" shield="purple_round_night_shield"/>
-						<apply_if POIcyclotouring="true" minzoom="11" icon="shop_bicycle" shield="purple_round_night_shield"/>
-					</switch>
-					<switch>
-						<case minzoom="13" tag="amenity" value="bicycle_repair_station" icon="bicycle_repair_station" shield="purple_round_night_shield"/>
-						<case minzoom="13" tag="amenity" value="compressed_air" icon="compressed_air" shield="purple_round_night_shield" iconOrder="70"/>
-					</switch>
-					<switch POIcyclotouring="true">
-						<case minzoom="15" tag="tourism" value="picnic_site"/>
-						<case minzoom="15" tag="leisure" value="picnic_table"/>
-						<apply icon="tourism_picnic_site" shield="white_round_shield"/>
-					</switch>
-	  	    <switch POIcyclotouring="true" minzoom="16" iconOrder="60">
-            <case minzoom="11" tag="amenity" value="marketplace" icon="amenity_marketplace" iconOrder="32"/>
-            <case minzoom="11" tag="shop" value="supermarket" icon="shop_supermarket" iconOrder="32"/>
-            <case tag="shop" value="outdoor" icon="outdoor"/>
-            <case tag="shop" value="sports" icon="shop_sports"/>
-            <case tag="shop" value="health_food" icon="health_food" iconOrder="50"/>
-            <case tag="shop" value="cheese" icon="cheese"/>
-            <case minzoom="12" tag="shop" value="butcher" icon="shop_butcher" iconOrder="50"/>
-            <case minzoom="12" tag="shop" value="bakery" icon="shop_bakery" iconOrder="50"/>
-            <case minzoom="11" tag="shop" value="greengrocer" icon="shop_greengrocer" iconOrder="32"/>
-            <case tag="shop" value="farm" icon="farm"/>
-            <case tag="shop" value="fishing" icon="shop_fishing" iconOrder="50"/>
-            <case tag="shop" value="seafood" icon="shop_seafood" iconOrder="50"/>
-            <case tag="shop" value="cannabis" icon="cannabis"/>
-            <case tag="shop" value="tobacco" icon="shop_tobacco"/>
-            <case tag="shop" value="convenience" icon="shop_convenience" iconOrder="50"/>
-            <case tag="shop" value="chocolate" icon="chocolate"/>
-		  	  	<apply shield="purple_round_shield"/>
+					<case POIcyclotouring="true" minzoom="14" tag="amenity" value="shower" icon="shower" shield="blue_round_shield"/>
+					<apply_if minzoom="12" additional="drinking_water=yes" icon_2="drinking_water_yes_map"/>
+					<apply_if nightMode="true" shield="blue_round_night_shield"/>
+				</switch>
+				<switch>
+					<case tag="natural" value="spring"/>
+					<apply minzoom="15" icon="natural_spring" shield="blue_round_night_shield" iconOrder="60" iconVisibleSize="24"/>
+					<apply_if POIcyclotouring="true" minzoom="11" icon="natural_spring" shield="blue_round_night_shield" iconOrder="60" iconVisibleSize="24"/>
+				</switch>
+				<switch>
+					<case tag="amenity" value="drinking_water"/>
+					<apply minzoom="15" icon="amenity_drinking_water" shield="blue_round_night_shield" iconOrder="60" iconVisibleSize="24"/>
+					<apply_if POIcyclotouring="true" minzoom="11" icon="amenity_drinking_water" shield="blue_round_night_shield" iconOrder="60" iconVisibleSize="24"/>
+				</switch>
+				<switch>
+					<case tag="amenity" value="fountain"/>
+					<apply minzoom="15" icon="amenity_fountain" shield="white_round_shield" iconOrder="60"/>
+					<apply_if POIcyclotouring="true" minzoom="11" icon="amenity_fountain" shield="white_round_shield" iconOrder="60"/>
+				</switch>
+				<switch>
+					<case minzoom="14" tag="shop" value="bicycle" icon="shop_bicycle" shield="purple_round_night_shield"/>
+					<apply_if POIcyclotouring="true" minzoom="11" icon="shop_bicycle" shield="purple_round_night_shield"/>
+				</switch>
+				<switch>
+					<case minzoom="13" tag="amenity" value="bicycle_repair_station" icon="bicycle_repair_station" shield="purple_round_night_shield"/>
+					<case minzoom="13" tag="amenity" value="compressed_air" icon="compressed_air" shield="purple_round_night_shield" iconOrder="70"/>
+				</switch>
+				<switch POIcyclotouring="true">
+					<case minzoom="15" tag="tourism" value="picnic_site"/>
+					<case minzoom="15" tag="leisure" value="picnic_table"/>
+					<apply icon="tourism_picnic_site" shield="white_round_shield"/>
+				</switch>
+				<switch POIcyclotouring="true" minzoom="16" iconOrder="60">
+					<case minzoom="11" tag="amenity" value="marketplace" icon="amenity_marketplace" iconOrder="32"/>
+					<case minzoom="11" tag="shop" value="supermarket" icon="shop_supermarket" iconOrder="32"/>
+					<case tag="shop" value="outdoor" icon="outdoor"/>
+					<case tag="shop" value="sports" icon="shop_sports"/>
+					<case tag="shop" value="health_food" icon="health_food" iconOrder="50"/>
+					<case tag="shop" value="cheese" icon="cheese"/>
+					<case minzoom="12" tag="shop" value="butcher" icon="shop_butcher" iconOrder="50"/>
+					<case minzoom="12" tag="shop" value="bakery" icon="shop_bakery" iconOrder="50"/>
+					<case minzoom="11" tag="shop" value="greengrocer" icon="shop_greengrocer" iconOrder="32"/>
+					<case tag="shop" value="farm" icon="farm"/>
+					<case tag="shop" value="fishing" icon="shop_fishing" iconOrder="50"/>
+					<case tag="shop" value="seafood" icon="shop_seafood" iconOrder="50"/>
+					<case tag="shop" value="cannabis" icon="cannabis"/>
+					<case tag="shop" value="tobacco" icon="shop_tobacco"/>
+					<case tag="shop" value="convenience" icon="shop_convenience" iconOrder="50"/>
+					<case tag="shop" value="chocolate" icon="chocolate"/>
+					<apply shield="purple_round_shield"/>
 			    </switch>
-	    	  <switch POIcyclotouring="true" minzoom="16" iconOrder="80">
-            <case tag="amenity" value="restaurant" icon="amenity_restaurant"/>
-            <case minzoom="12" tag="amenity" value="cafe" icon="amenity_cafe" iconOrder="50"/>
-            <case tag="amenity" value="fast_food" icon="amenity_fast_food"/>
-            <case tag="amenity" value="food_court" icon="amenity_food_court"/>
-            <case tag="amenity" value="pub" icon="amenity_pub"/>
-           <case tag="amenity" value="bar" icon="amenity_bar"/>
-            <case tag="amenity" value="biergarten" icon="amenity_biergarten"/>
-            <case tag="amenity" value="ice_cream" icon="ice_cream"/>
-            <case tag="amenity" value="hookah_lounge" icon="hookah_lounge"/>
+	    		<switch POIcyclotouring="true" minzoom="16" iconOrder="80">
+					<case tag="amenity" value="restaurant" icon="amenity_restaurant"/>
+					<case minzoom="12" tag="amenity" value="cafe" icon="amenity_cafe" iconOrder="50"/>
+					<case tag="amenity" value="fast_food" icon="amenity_fast_food"/>
+					<case tag="amenity" value="food_court" icon="amenity_food_court"/>
+					<case tag="amenity" value="pub" icon="amenity_pub"/>
+					<case tag="amenity" value="bar" icon="amenity_bar"/>
+					<case tag="amenity" value="biergarten" icon="amenity_biergarten"/>
+					<case tag="amenity" value="ice_cream" icon="ice_cream"/>
+					<case tag="amenity" value="hookah_lounge" icon="hookah_lounge"/>
 				    <apply shield="orange_round_shield"/>
   			  </switch>
 	    	  <switch minzoom="16" iconOrder="80">
-            <case tag="barrier" value="cycle_barrier" icon="barrier_cycle_barrier" shield="orange_round_shield" iconOrder="162"/>
+            		<case tag="barrier" value="cycle_barrier" icon="barrier_cycle_barrier" shield="orange_round_shield" iconOrder="162"/>
   			  </switch>
 	  		</switch>
       </switch>
@@ -1566,7 +1566,7 @@
 						</filter>
 					</groupFilter>
 				</groupFilter>
-			<apply_if showAccess="true" minzoom="10">
+				<apply_if showAccess="true" minzoom="10">
 				<switch>
 					<case additional="access=private" color_5="$accessPrivateColor"/>
 					<case additional="access=no" color_5="$accessPrivateColor"/>
@@ -1578,8 +1578,8 @@
 			<group>
 				<filter tag="highway" value="path" strokeWidth="1"/>
 				<groupFilter color_5="$pathColorDay" color="$null">
-          <filter minzoom="12" maxzoom="13" pathEffect_5="3_1"/>
-          <filter minzoom="14" pathEffect_5="12_2"/>
+          			<filter minzoom="12" maxzoom="13" pathEffect_5="3_1"/>
+         			<filter minzoom="14" pathEffect_5="12_2"/>
 					<groupFilter>
 						<filter>
 							<filter minzoom="13" maxzoom="13" strokeWidth_5="0.7" strokeWidth_4="1"/>
@@ -1591,7 +1591,7 @@
 					</groupFilter>
 					<groupFilter nightMode="true" color_5="$pathColorNight"/>
 				</groupFilter>
-			<apply_if noPolygons="true" color_4="$trackSubstrateColor"/>
+				<apply_if noPolygons="true" color_4="$trackSubstrateColor"/>
 			</group>
 
 			<!-- Blocks footway/steps/bridleway/cycleway should be unchanged from default renderer -->
@@ -1602,7 +1602,7 @@
 				<groupFilter color_5="$footwayColorDay" pathEffect_5="4_2" color="$null">
 					<filter minzoom="15" maxzoom="16" strokeWidth_5="0.7" strokeWidth_4="0.9"/>
 					<filter minzoom="17" strokeWidth_5="2" strokeWidth_4="3"/>
-          <apply_if nightMode="true" color_5="$pathColorNight"/>
+          			<apply_if nightMode="true" color_5="$pathColorNight"/>
 				</groupFilter>
 				<groupFilter minzoom="13" additional="bicycle=designated" color_5="#0060ff">
 					<filter minzoom="14" maxzoom="14" strokeWidth_5="1.5" pathEffect_5="" cap_5="ROUND"/>
@@ -1611,7 +1611,7 @@
 					<filter minzoom="17" maxzoom="17" strokeWidth_5="4" pathEffect_5="" cap_5="ROUND"/>
 					<filter minzoom="18" strokeWidth_5="5" pathEffect_5="" cap_5="ROUND"/>
 				</groupFilter>
-      <apply_if noPolygons="true" color_4="$trackSubstrateColor"/>
+      			<apply_if noPolygons="true" color_4="$trackSubstrateColor"/>
 			</group>
 
 			<group>
@@ -1683,36 +1683,36 @@
 				<case tag="cycleway" value="opposite_lane"/>
 				<case tag="cycleway" value="both"/>
 				<case tag="cycleway:both" value="lane"/>
-        <apply minzoom="14" maxzoom="14" strokeWidth="1.5" pathEffect="8_10" cap="ROUND"/>
-        <apply minzoom="15" maxzoom="15" strokeWidth="2.5" pathEffect="8_10" cap="ROUND"/>
-        <apply minzoom="16" maxzoom="16" strokeWidth="3" pathEffect="8_10" cap="ROUND"/>
-        <apply minzoom="17" maxzoom="17" strokeWidth="4" pathEffect="8_10" cap="ROUND"/>
-        <apply minzoom="18" strokeWidth="5" pathEffect="8_10" cap="ROUND"/>
+				<apply minzoom="14" maxzoom="14" strokeWidth="1.5" pathEffect="8_10" cap="ROUND"/>
+				<apply minzoom="15" maxzoom="15" strokeWidth="2.5" pathEffect="8_10" cap="ROUND"/>
+				<apply minzoom="16" maxzoom="16" strokeWidth="3" pathEffect="8_10" cap="ROUND"/>
+				<apply minzoom="17" maxzoom="17" strokeWidth="4" pathEffect="8_10" cap="ROUND"/>
+				<apply minzoom="18" strokeWidth="5" pathEffect="8_10" cap="ROUND"/>
 			</switch>
 			<case minzoom="14" tag="cycleway" value="share_busway" pathEffect="8_10"/>
 			<case minzoom="14" tag="cycleway" value="shared_lane" pathEffect="8_10"/>
 			<case minzoom="14" tag="cycleway:both" value="shared_lane" pathEffect="8_10"/>
 			<case minzoom="16" tag="cycleway" value="opposite" pathEffect="6_10"/>
 			<case minzoom="14" tag="bicycle_road" value="yes" pathEffect="6_10"/>
-      <apply minzoom="14" maxzoom="14" strokeWidth="1.5" cap="ROUND"/>
-      <apply minzoom="15" maxzoom="15" strokeWidth="2.5" cap="ROUND"/>
-      <apply minzoom="16" maxzoom="16" strokeWidth="3" cap="ROUND"/>
-      <apply minzoom="17" maxzoom="17" strokeWidth="4" cap="ROUND"/>
-      <apply minzoom="18" strokeWidth="5" cap="ROUND"/>
+      		<apply minzoom="14" maxzoom="14" strokeWidth="1.5" cap="ROUND"/>
+      		<apply minzoom="15" maxzoom="15" strokeWidth="2.5" cap="ROUND"/>
+      		<apply minzoom="16" maxzoom="16" strokeWidth="3" cap="ROUND"/>
+     		<apply minzoom="17" maxzoom="17" strokeWidth="4" cap="ROUND"/>
+     		<apply minzoom="18" strokeWidth="5" cap="ROUND"/>
 			<apply color="#0060ff"/>
 			<!-- Disable cycleways in OpenGL engine if cycleway:left/right is present. This is needed for backward compatibility -->
 			<apply_if engine_v1="false" additional="osmand_cycleway=no" disable="true"/>
 		</switch>
-    <switch minzoom="14">
-      <case tag="cycleway" value="track"/>
-      <case tag="cycleway:both" value="track"/>
-      <apply minzoom="14" maxzoom="14" strokeWidth="1.5" cap="ROUND"/>
-      <apply minzoom="15" maxzoom="15" strokeWidth="2.5" cap="ROUND"/>
-      <apply minzoom="16" maxzoom="16" strokeWidth="3" cap="ROUND"/>
-      <apply minzoom="17" maxzoom="17" strokeWidth="4" cap="ROUND"/>
-      <apply minzoom="18" strokeWidth="5" cap="ROUND"/>
+		<switch minzoom="14">
+			<case tag="cycleway" value="track"/>
+			<case tag="cycleway:both" value="track"/>
+			<apply minzoom="14" maxzoom="14" strokeWidth="1.5" cap="ROUND"/>
+			<apply minzoom="15" maxzoom="15" strokeWidth="2.5" cap="ROUND"/>
+			<apply minzoom="16" maxzoom="16" strokeWidth="3" cap="ROUND"/>
+			<apply minzoom="17" maxzoom="17" strokeWidth="4" cap="ROUND"/>
+			<apply minzoom="18" strokeWidth="5" cap="ROUND"/>
 			<apply color="$cyclewayColorDay"/>
-    </switch>
+		</switch>
 		<switch engine_v1="false" minzoom="13">
 			<case tag="osmand_cycleway_trunk_left" value="true">
 				<apply_if maxzoom="14" hmargin="4"/>
@@ -1805,11 +1805,11 @@
 				<apply_if minzoom="19" hmargin="-7"/>
 			</case>
 			<apply minzoom="13" maxzoom="13" strokeWidth="1" pathEffect="6_6" cap="ROUND"/>
-      <apply minzoom="14" maxzoom="14" strokeWidth="2" pathEffect="6_6" cap="ROUND"/>
-      <apply minzoom="15" maxzoom="15" strokeWidth="2" pathEffect="8_8" cap="ROUND"/>
-      <apply minzoom="16" maxzoom="16" strokeWidth="2.5" pathEffect="8_8" cap="ROUND"/>
-      <apply minzoom="17" maxzoom="17" strokeWidth="4" pathEffect="8_8" cap="ROUND"/>
-      <apply minzoom="18" strokeWidth="5" pathEffect="6_15" cap="ROUND"/>
+    		<apply minzoom="14" maxzoom="14" strokeWidth="2" pathEffect="6_6" cap="ROUND"/>
+    		<apply minzoom="15" maxzoom="15" strokeWidth="2" pathEffect="8_8" cap="ROUND"/>
+    		<apply minzoom="16" maxzoom="16" strokeWidth="2.5" pathEffect="8_8" cap="ROUND"/>
+    		<apply minzoom="17" maxzoom="17" strokeWidth="4" pathEffect="8_8" cap="ROUND"/>
+    		<apply minzoom="18" strokeWidth="5" pathEffect="6_15" cap="ROUND"/>
 			<apply color="#0060ff"/>
 		</switch>
 		<case minzoom="15" tag="sidewalk" value="yes">
