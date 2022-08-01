@@ -214,7 +214,8 @@
 	<renderingConstant name="shadowColorDay" value="#767676"/>
 	<renderingConstant name="shadowColorNight" value="#464646"/>
 	<renderingConstant name="shadowColorLowZoom" value="#262626"/>
-	<renderingConstant name="accessPrivateColor" value="#CD0000"/>
+	<renderingConstant name="accessPrivateColor" value="#999999"/>
+	<renderingConstant name="accessPrivateColor2" value="#CD0000"/>
 	
 	<renderingConstant name="proposedRoadColor" value="#ff6600"/>
 	<renderingConstant name="proposedRoadColor2" value="#9f9f9f"/>
@@ -1568,8 +1569,8 @@
 				</groupFilter>
 				<apply_if showAccess="true" minzoom="10">
 				<switch>
-					<case additional="access=private" color_5="$accessPrivateColor"/>
-					<case additional="access=no" color_5="$accessPrivateColor"/>
+					<case additional="access=private" color_5="$accessPrivateColor2"/>
+					<case additional="access=no" color_5="$accessPrivateColor2"/>
 				</switch>
 			<apply_if noPolygons="true" color_4="$trackSubstrateColor"/>
 			</apply_if>
