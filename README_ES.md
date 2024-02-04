@@ -1,4 +1,4 @@
-🇫🇷 [Français](README.md)&emsp;`🇪🇸 Español`&emsp;🇬🇧 [English](README_EN.md) 
+[Français](README.md)&emsp;`Español`&emsp;[English](README_EN.md) 
 
 # CycloRoute
 
