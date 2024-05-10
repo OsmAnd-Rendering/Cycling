@@ -2,7 +2,9 @@
 
 # CycloRoute
 
-A map style for OsmAnd, focused on the practice of cycling and cycloTouring<br><br>
+A map style for OsmAnd, focused on the practice of cycling and cycloTouring<br>
+*(Last update 10/05/2024)*<br><br>
+
 ## Notable features over standard styles:
 <br>
 
