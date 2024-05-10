@@ -522,6 +522,11 @@
 			<apply_if nightMode="true" attrColorValue="#578AEC"/>
 		</case>
 	</renderingAttribute>
+	<renderingAttribute name="GuidepostTextColor">
+		<case attrColorValue="#222222">
+			<apply_if nightMode="true" attrColorValue="#dddddd"/>
+		</case>
+	</renderingAttribute>
 	
 	<renderingConstant name="sacScaleColorT1" value="#5a3a22"/>
 	<renderingConstant name="sacScaleColorT2" value="#FF00F5"/>
@@ -882,7 +887,10 @@
 		<case nightMode="true" attrColorValue="#9939528B"/>
 		<case attrColorValue="#9abfdd"/>
 	</renderingAttribute>
-
+	<renderingAttribute name="GuidepostTextHaloColor">
+		<case nightMode="true" attrColorValue="#000000"/>
+		<case attrColorValue="#ffffff"/>
+	</renderingAttribute>
 
 	<order>
 	</order>
@@ -1046,6 +1054,18 @@
 				</switch>
 			</switch>
     </switch>
+					<!-- information -->
+	<switch textSize="12" nameTag="" textColor="$GuidepostTextColor" textHaloRadius="$textHaloRadius" textHaloColor="$GuidepostTextHaloColor" textWrapWidth="20" textOrder="155">
+				<case minzoom="17" tag="amenity" value="place_of_worship" nameTag="" textOrder="50"/>
+				<case minzoom="17" tag="tourism" value="picnic_site"/>
+				<case minzoom="17" tag="leisure" value="picnic_table"/>
+				<case minzoom="17" tag="tourism" value="information" textOrder="120"/>
+          		<case minzoom="16" tag="tourism" value="information" additional="information=guidepost" nameTag="ref" textOrder="120"/>
+				<case minzoom="16" tag="tourism" value="information" additional="information=route_marker" nameTag="ref" textOrder="120"/>
+				<case minzoom="17" tag="highway" value="trailhead" nameTag=""/>
+				<case minzoom="16" tag="tourism" value="viewpoint"/>
+				<apply_if engine_v1="true" textDy="1"/>
+			</switch>
   </text>
 
 
@@ -1167,6 +1187,7 @@
 					</apply>
 					<apply_if nightMode="true" shield="lightgray_round_night_shield" iconVisibleSize="30"/>
 				</switch>
+				<case tag="tourism" value="viewpoint" icon="topo_viewpoint"/>
 				<case tag="tourism" value="camp_pitch" icon="topo_camp_pitch"/>
 				<case tag="tourism" value="caravan_site" icon="topo_caravan_site"/>
 				<case tag="tourism" value="chalet" icon="topo_chalet"/>
@@ -1188,6 +1209,7 @@
 					<case additional="information=guidepost" icon="information_guidepost"/>
 					<case additional="information=map" icon="information_map"/>
 					<case additional="information=terminal" icon="information_terminal"/>
+					<case additional="information=route_marker" icon="information_route_marker"/>
 				</case>
 				<apply shield="white_round_shield"/>
 				</switch>
