@@ -1484,10 +1484,6 @@
 
 	<line>
     <switch minzoom="5">
-			<switch>
-				<case showCycleRoutes="true" tag="route_bicycle" value=""/>
-				<case showCycleNodeNetworkRoutes="true" tag="route_bicycle" value=""/>
-			</switch>
       <apply_if showCycleRoutes="true">
 				<switch>
 					<case additional="network=lcn" color="$cycleRoutelcnColor"/>
