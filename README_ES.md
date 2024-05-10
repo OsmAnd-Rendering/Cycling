@@ -2,7 +2,8 @@
 
 # CycloRoute
 
-Un estilo de mapa para OsmAnd, enfocado en la práctica de la bici y del cicloturismo<br><br>
+Un estilo de mapa para OsmAnd, enfocado en la práctica de la bici y del cicloturismo<br>
+*(Actualizado el 10/05/2024)*<br><br>
 
 ## Características del estilo
 <br>
