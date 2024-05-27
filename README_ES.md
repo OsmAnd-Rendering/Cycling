@@ -37,7 +37,7 @@ Un estilo de mapa para OsmAnd, enfocado en la práctica de la bici y del ciclotu
 ## Instrucciones de instalación
 <br>
 
-- [Instrucciones de instalación para todos los perfiles, renderizados y enrutamiento](https://github.com/OsmAnd-Rendering/.github/wiki/%F0%9F%87%AA%F0%9F%87%B8-Descargar-e-Instalar)
+- [Instrucciones de instalación para todos los perfiles, renderizados y enrutamiento](https://github.com/OsmAnd-Rendering/.github/wiki/ES%E2%80%94Descargar-e-Instalar)
 <br><br>
 
 ---
