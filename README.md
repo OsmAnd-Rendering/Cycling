@@ -39,7 +39,7 @@ Un style de carte pour OsmAnd, axé sur la pratique du vélo et du cycloTourisme
 ## Instructions d'installation
 <br>
 
-- [Instructions d'installation pour tous les profils, rendus et routages](https://github.com/OsmAnd-Rendering/.github/wiki/%F0%9F%87%AB%F0%9F%87%B7--T%C3%A9l%C3%A9chargement-et-Installation)
+- [Instructions d'installation pour tous les profils, rendus et routages](https://github.com/OsmAnd-Rendering/.github/wiki/FR%E2%80%94T%C3%A9l%C3%A9chargement-et-Installation)
 <br><br>
 
 ---
