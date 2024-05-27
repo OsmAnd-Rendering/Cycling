@@ -39,7 +39,7 @@ A map style for OsmAnd, focused on the practice of cycling and cycloTouring<br>
 ## Installation instructions
 <br>
 
-- [Installation instructions for all Profiles, renderings and routing.](https://github.com/OsmAnd-Rendering/.github/wiki/%F0%9F%87%AC%F0%9F%87%A7--Download-and-Install)
+- [Installation instructions for all Profiles, renderings and routing.](https://github.com/OsmAnd-Rendering/.github/wiki/EN%E2%80%94Download-and-Install)
 <br><br>
 
 ---
