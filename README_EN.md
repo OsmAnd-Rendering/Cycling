@@ -1,5 +1,4 @@
-<img src="https://raw.githubusercontent.com/osmandapp/OsmAnd-resources/master/icons/svg/special/bicycle.svg
-" width="90" /> [Français](README.md)&emsp;[Español](README_ES.md)&emsp;`English`
+<img src="https://raw.githubusercontent.com/osmandapp/OsmAnd-resources/49246831463629494c8a65d1c2b906480d9fb19f/icons/svg/special/bicycle.svg" width="90" /> [Français](README.md)&emsp;[Español](README_ES.md)&emsp;`English`
 
 # CycloRoute
 
