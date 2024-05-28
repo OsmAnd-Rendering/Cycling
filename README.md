@@ -1,4 +1,4 @@
-<img src="https://github.com/osmandapp/OsmAnd-iOS/blob/master/Resources/Icons/Profile/ic_action_bicycle_dark%403x.png" width="100" /> <img src="https://github.com/osmandapp/OsmAnd-iOS/blob/master/Resources/Icons/ic_custom_map_languge%403x.png" width="25" /> `Français`&emsp;[Español](README_ES.md)&emsp;[English](README_EN.md)
+![](https://github.com/osmandapp/OsmAnd-iOS/blob/master/Resources/Icons/Profile/ic_action_bicycle_dark%403x.png=width=100) <img src="https://github.com/osmandapp/OsmAnd-iOS/blob/master/Resources/Icons/ic_custom_map_languge%403x.png" width="25" /> `Français`&emsp;[Español](README_ES.md)&emsp;[English](README_EN.md)
 
 # CycloRoute
 
