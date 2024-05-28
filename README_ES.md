@@ -8,13 +8,13 @@ Un estilo de mapa para OsmAnd, enfocado en la práctica de la bici y del ciclotu
 ## Características del estilo
 <br>
 
-- Inspirado en CyclOSM:
+- Inspirado en [CyclOSM](https://www.cyclosm.org/) :
 
      - Carriles bici más legibles y visibles
      - Puntos de interés útiles/interesantes resaltados
      - Color opaco para rutas<br><br>
 
-- Inspirado en Mapy.cz:
+- Inspirado en [Mapy.cz](https://en.mapy.cz/) :
      - Color tierra y agua<br><br>
 
 - Configuración adicional:

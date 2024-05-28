@@ -8,13 +8,13 @@ A map style for OsmAnd, focused on the practice of cycling and cycloTouring<br>
 ## Notable features over standard styles:
 <br>
 
-- Inspired by CyclOSM:
+- Inspired by [CyclOSM](https://www.cyclosm.org/) :
 
      - More legible and visible cycle paths
      - Highlighted useful/interesting POIs
      - Opaque color for routes<br><br>
 
-- Inspired by Mapy.cz:
+- Inspired by [Mapy.cz](https://en.mapy.cz/) :
      - Land and Water Color<br><br>
 
 - Additional setting:

@@ -8,13 +8,13 @@ Un style de carte pour OsmAnd, axé sur la pratique du vélo et du cycloTourisme
 ## Caractéristiques du style:
 <br>
 
-- Inspiré de CyclOSM : 
+- Inspiré de [CyclOSM](https://www.cyclosm.org/) : 
 
     - Pistes cyclables plus lisibles et visibles
     - POI utiles / intéressants mis en évidence
     - Couleur opaque pour les itinéraires<br><br>
 
-- Inspiré de Mapy.cz :
+- Inspiré de [Mapy.cz](https://en.mapy.cz/) :
     - Couleur des terres et de l'eau<br><br>
 
 - Réglage supplémentaire :
