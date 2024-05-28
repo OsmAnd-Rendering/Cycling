@@ -5,7 +5,7 @@
 Un estilo de mapa para OsmAnd, enfocado en la práctica de la bici y del cicloturismo<br>
 *(Última actualización 10/05/2024)*<br><br>
 
-## Características del estilo
+## <img src="https://github.com/osmandapp/OsmAnd-iOS/blob/master/Resources/Icons/ic_custom_point_labels%403x.png" width="30" > Características del estilo
 <br>
 
 - Inspirado en [CyclOSM](https://www.cyclosm.org/) :
@@ -24,7 +24,7 @@ Un estilo de mapa para OsmAnd, enfocado en la práctica de la bici y del ciclotu
 <br><br>
 
 ---
-## Screenshots<br>
+## <img src="https://github.com/osmandapp/OsmAnd-iOS/blob/master/Resources/Icons/ic_navbar_image_outlined%403x.png" width="30" > Screenshots<br>
 ### Bici
 | <img src="Screenshots/CycloRoute_Cycling-1.png" width="90%" /> | <img src="Screenshots/CycloRoute_Cycling-2.png" width="90%" /> | <img src="Screenshots/CycloRoute_Cycling-3.png" width="90%" /> |
 | :-------------: | :-------------: | :-------------: |
@@ -34,7 +34,7 @@ Un estilo de mapa para OsmAnd, enfocado en la práctica de la bici y del ciclotu
 | :-------------: | :-------------: | :-------------: |
 ---
 
-## Instrucciones de instalación
+## <img src="https://github.com/osmandapp/OsmAnd-iOS/blob/master/Resources/Icons/ic_custom_download%403x.png" width="30" > Instrucciones de instalación
 <br>
 
 - [Instrucciones de instalación para todos los perfiles, renderizados y enrutamiento](https://github.com/OsmAnd-Rendering/.github/wiki/ES%E2%80%94Descargar-e-Instalar)
@@ -42,7 +42,7 @@ Un estilo de mapa para OsmAnd, enfocado en la práctica de la bici y del ciclotu
 
 ---
 
-## Documentation
+## <img src="https://github.com/osmandapp/OsmAnd-iOS/blob/master/Resources/Icons/ic_custom_info%403x.png" width="30" > Documentation
 <br>
 
 - [Leyenda](https://www.cyclosm.org/legend.html)
