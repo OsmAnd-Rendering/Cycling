@@ -5,7 +5,7 @@
 Un style de carte pour OsmAnd, axé sur la pratique du vélo et du cycloTourisme<br>
 *(Dernière mise à jour 10/05/2024)*<br><br>
 
-## Caractéristiques du style:
+## <img src="https://github.com/osmandapp/OsmAnd-iOS/blob/master/Resources/Icons/ic_custom_point_labels%403x.png" width="30" > Caractéristiques du style:
 <br>
 
 - Inspiré de [CyclOSM](https://www.cyclosm.org/) : 
@@ -24,7 +24,7 @@ Un style de carte pour OsmAnd, axé sur la pratique du vélo et du cycloTourisme
 <br><br>
 
 ---
-## Screenshots<br>
+## <img src="https://github.com/osmandapp/OsmAnd-iOS/blob/master/Resources/Icons/ic_navbar_image_outlined%403x.png" width="30" > Screenshots<br>
 ### Mode vélo
 | <img src="Screenshots/CycloRoute_Cycling-1.png" width="250" /> | <img src="Screenshots/CycloRoute_Cycling-2.png" width="250" /> | <img src="Screenshots/CycloRoute_Cycling-3.png" width="250" /> |
 | :-------------: | :-------------: | :-------------: |
