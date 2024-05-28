@@ -36,7 +36,7 @@ Un style de carte pour OsmAnd, axé sur la pratique du vélo et du cycloTourisme
 
 ---
 
-## Instructions d'installation
+## <img src="https://github.com/osmandapp/OsmAnd-iOS/blob/master/Resources/Icons/ic_custom_download%403x.png" width="30" >Instructions d'installation
 <br>
 
 - [Instructions d'installation pour tous les profils, rendus et routages](https://github.com/OsmAnd-Rendering/.github/wiki/FR%E2%80%94T%C3%A9l%C3%A9chargement-et-Installation)
@@ -44,7 +44,7 @@ Un style de carte pour OsmAnd, axé sur la pratique du vélo et du cycloTourisme
 
 ---
 
-## Documentation
+## <img src="https://github.com/osmandapp/OsmAnd-iOS/blob/master/Resources/Icons/ic_custom_info%403x.png" width="30" >Documentation
 <br>
 
 - [Légende](https://www.cyclosm.org/legend.html)<br>
