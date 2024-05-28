@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/osmandapp/OsmAnd-resources/49246831463629494c8a65d1c2b906480d9fb19f/icons/svg/special/bicycle.svg" width="90" /> [Français](README.md)&emsp;`Español`&emsp;[English](README_EN.md) 
+<img src="https://github.com/osmandapp/OsmAnd-iOS/blob/master/Resources/Icons/Profile/ic_action_bicycle_dark%403x.png" width="90" /> <img src="https://github.com/osmandapp/OsmAnd-iOS/blob/master/Resources/Icons/ic_custom_map_languge%403x.png" width="25" /> [Français](README.md)&emsp;`Español`&emsp;[English](README_EN.md) 
 
 # CycloRoute
 
