@@ -1,5 +1,5 @@
 <span style="float:left;"><img src="icon/logo_OsmAnd-Rendering.svg" width="30" /> </span>
-<span style="float:left;"><a href="https://osmand-rendering.github.io/index_ES.html">Home</a>&emsp;</span>
+<span style="float:left;"><a href="https://osmand-rendering.github.io/index_ES.html">Inicio</a>&emsp;</span>
 
 <span style="float:right;"><a href="README_EN.md">English</a>&emsp;</span>
 <span style="float:right;"><code>Español</code>&emsp;</span>
