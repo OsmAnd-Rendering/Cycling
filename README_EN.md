@@ -1,13 +1,15 @@
 <span style="float:left;"><img src="icon/logo_OsmAnd-Rendering.svg" width="30" /> </span>
 <span style="float:left;"><a href="https://osmand-rendering.github.io/index_EN.html">Home</a>&emsp;</span>
   
-<span style="float:right;"><code>English</code>&emsp;</span>
-<span style="float:right;"><a href="README_ES.md">Español</a>&emsp;</span>
-<span style="float:right;"><a href="README.md">Français</a>&emsp;</span>
-<span style="float:right;"><img src="icon/translate.svg" width="17" /> </span> 
-<br>
 
 <p style="text-align:center;"> <img src="icon/bicycle.svg" width="100" class="center"> </p>
+
+<span style="float:right;"><img src="icon/translate.svg" width="17" /> </span> <span style="float:right;"><code>English</code>&emsp;</span>
+<span style="float:right;"><a href="README_ES.md">Español</a>&emsp;</span>
+<span style="float:right;"><a href="README.md">Français</a>&emsp;</span>
+<br>
+
+
 
 # CycloRoute
 
